@@ -1,0 +1,32 @@
+EviFork-Bio 交付说明：证据分歧驱动的生物因果假设研究框架
+
+本文件夹包含当前完整源码、原有 FLASH-P 管线、研究扩展、测试、最终实验结果和方法开发记录。
+
+入口
+- evifork_bio/README.md：研究扩展的使用说明与数据契约。
+- research/EVIFORK_BIO_WORKFLOW.md：Agent 工作流与留出规范。
+- research_results/final/README.md：实际运行结果与解释边界。
+- README.md：EviFork-Bio 项目介绍和运行入口。
+- UPSTREAM_PIPELINE_GUIDE.md：原有 FLASH-P 管线的使用方式。
+- NAMING_MIGRATION.json：文件改名对照及改名前后哈希。
+- LICENSE、NOTICE：许可证、上游归属和本地修改记录。
+- DELIVERY_MANIFEST.json：交付文件哈希、清理范围和验证结果。
+
+运行环境
+Python 3.10 或更高版本。从本文件夹根目录执行：
+
+python -B -m unittest discover -s tests -v
+python -B -m evifork_bio demo --output my_runs/demo
+
+研究扩展不新增第三方依赖。原项目其他可选功能可能需要其各自依赖。
+
+结果边界
+已执行两个拟南芥性状各三个划分的回顾性评估及一个合成已知拓扑控制。
+当前数据尚未证明新方法稳定优于对照；独立证据审查标签尚缺，来源可靠度使用明示先验。
+已有原 FLASH-P 网络只作可能有留出污染的参考重放，公平盲法重建尚未完成。
+这些结果不代表前瞻性生物发现。
+
+交付整理
+排除了编译缓存、本机私有配置和过期的内部隐私核查快照。
+两份 Office 文件仅清理隐藏机构标识；原始分类说明保留，未将内部分类改写为公开。
+许可证、必要上游归属、科学引用、科研数据和方法开发记录均保留。

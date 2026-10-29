@@ -1,0 +1,39 @@
+FLASH-P upstream attribution
+
+Copyright (c) 2026 The University of Queensland
+(https://uq.edu.au)
+
+FLASH-P was developed by Christos Mitsanis and David Kainer at
+The University of Queensland.
+
+Upstream repository recorded in the supplied README:
+https://github.com/CMits/FlashP
+
+Reference:
+Mitsanis C, Fortuna NZ, Beveridge C, Kainer D.
+Turning decades of biology into accurate causal networks with AI agents.
+bioRxiv 2026.06.13.731799.
+https://doi.org/10.64898/2026.06.13.731799
+
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International (CC BY-NC-SA 4.0). See LICENSE for the full original text.
+
+Local modifications on 2026-10-29:
+Documentation, file metadata, and the release status message were adjusted.
+The original scientific methods and bundled Outcome/ research results remain upstream work.
+
+Subsequent local research extension on 2026-10-29:
+evifork_bio/, research/, tests/ and research_results/ add competing graph hypotheses,
+optional audit-based evidence reliability, predictive calibration, information-gain query
+selection and grouped holdout evaluation. They reuse the upstream algebraic simulator.
+These retrospective and synthetic evaluations do not establish prospective biological
+discovery or an independently verified new mechanism.
+
+Distribution naming update on 2026-10-29:
+This derivative distribution is named EviFork-Bio (Evidence forks for biological
+causal hypotheses). Its Python entry point is python -m evifork_bio. Branded paths,
+scripts and agent commands were renamed, with references updated. The distribution
+name does not transfer authorship of the upstream FLASH-P methods, code, images,
+paper or data. Scientific artifacts and LICENSE retain their original bytes;
+historical identifiers remain for provenance and format compatibility. See
+NAMING_MIGRATION.json for the complete path and checksum mapping.

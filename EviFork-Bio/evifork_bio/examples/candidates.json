@@ -1,0 +1,4 @@
+[
+  {"id":"A_KO","genes":{"A":0},"supply":{},"baseline_genes":{},"baseline_supply":{},"phenotype":"Trait","context":"synthetic_control","cost":1},
+  {"id":"C_control","genes":{"C":0},"supply":{},"baseline_genes":{},"baseline_supply":{},"phenotype":"Trait","context":"synthetic_control","cost":1}
+]

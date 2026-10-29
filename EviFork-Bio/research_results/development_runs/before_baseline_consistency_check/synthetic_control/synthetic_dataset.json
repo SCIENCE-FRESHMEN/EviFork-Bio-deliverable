@@ -1,0 +1,431 @@
+{
+  "format_version": 1,
+  "metadata": {
+    "source_type": "synthetic",
+    "context": "synthetic_control",
+    "phenotype_node": "Trait",
+    "limitations": [
+      "Synthetic control only; not biological evidence or performance on a real discovery task."
+    ]
+  },
+  "claims": [
+    {
+      "id": "positive",
+      "source": "A",
+      "target": "B",
+      "sign": 1,
+      "doi": "synthetic:positive",
+      "context": "synthetic_control",
+      "quality": "unknown"
+    },
+    {
+      "id": "negative",
+      "source": "A",
+      "target": "B",
+      "sign": -1,
+      "doi": "synthetic:negative",
+      "context": "synthetic_control",
+      "quality": "unknown"
+    },
+    {
+      "id": "endpoint",
+      "source": "B",
+      "target": "Trait",
+      "sign": 1,
+      "doi": "synthetic:endpoint",
+      "context": "synthetic_control",
+      "quality": "unknown"
+    },
+    {
+      "id": "null_control",
+      "source": "C",
+      "target": "Trait",
+      "sign": 0,
+      "doi": "synthetic:null_control",
+      "context": "synthetic_control",
+      "quality": "unknown"
+    }
+  ],
+  "perturbations": [
+    {
+      "id": "train0",
+      "genes": {
+        "B": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_train0"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "train1",
+      "genes": {
+        "B": 0.2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_train1"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "train2",
+      "genes": {
+        "B": 0.4
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_train2"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "train3",
+      "genes": {
+        "B": 0.6
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_train3"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "cal0",
+      "genes": {
+        "B": 0.3
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_cal0"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "cal1",
+      "genes": {
+        "B": 0.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_cal1"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "cal2",
+      "genes": {
+        "B": 1.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 1,
+      "dois": [
+        "synthetic:experiment_cal2"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "cal3",
+      "genes": {
+        "B": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 1,
+      "dois": [
+        "synthetic:experiment_cal3"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "informative_A",
+      "genes": {
+        "A": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_informative_A"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy0",
+      "genes": {
+        "C": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy0"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy1",
+      "genes": {
+        "C": 0.3
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy1"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy2",
+      "genes": {
+        "C": 0.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy2"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy3",
+      "genes": {
+        "C": 0.7
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy3"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy4",
+      "genes": {
+        "C": 1.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy4"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy5",
+      "genes": {
+        "C": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy5"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy6",
+      "genes": {
+        "C": 3.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy6"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "decoy7",
+      "genes": {
+        "C": 4.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 0,
+      "dois": [
+        "synthetic:experiment_decoy7"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "test0",
+      "genes": {
+        "A": 0.2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_test0"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "test1",
+      "genes": {
+        "A": 0.4
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": -1,
+      "dois": [
+        "synthetic:experiment_test1"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "test2",
+      "genes": {
+        "A": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 1,
+      "dois": [
+        "synthetic:experiment_test2"
+      ],
+      "cost": 1
+    },
+    {
+      "id": "test3",
+      "genes": {
+        "A": 3.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control",
+      "outcome": 1,
+      "dois": [
+        "synthetic:experiment_test3"
+      ],
+      "cost": 1
+    }
+  ],
+  "audits": [],
+  "split_roles": {
+    "train": [
+      "train0",
+      "train1",
+      "train2",
+      "train3"
+    ],
+    "calibration": [
+      "cal0",
+      "cal1",
+      "cal2",
+      "cal3"
+    ],
+    "query": [
+      "informative_A",
+      "decoy0",
+      "decoy1",
+      "decoy2",
+      "decoy3",
+      "decoy4",
+      "decoy5",
+      "decoy6",
+      "decoy7"
+    ],
+    "test": [
+      "test0",
+      "test1",
+      "test2",
+      "test3"
+    ]
+  },
+  "ground_truth_edges": [
+    [
+      "A",
+      "B",
+      1
+    ],
+    [
+      "B",
+      "Trait",
+      1
+    ]
+  ]
+}

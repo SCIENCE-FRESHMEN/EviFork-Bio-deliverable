@@ -1,0 +1,4904 @@
+{
+  "pairs": [
+    {
+      "source": "ABA",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/aob/mcl173",
+            "10.1104/pp.15.00065"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "ABCB19",
+      "target": "Polar_Auxin_Transport",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pbio.1002446"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "AFB4",
+      "target": "Auxin",
+      "observed_signs": [
+        0
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 1.0,
+          "support_dois": [
+            "10.1371/journal.pgen.1007089"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "AFB4",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pgen.1007089"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "AFB5",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.7554/elife.54740"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "ARR1",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.17.01691"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "ARR1",
+      "target": "TIE1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1126/sciadv.abn5057"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "ARR2",
+      "target": "TIE1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1126/sciadv.abn5057"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "ABA",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/aob/mcl173"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "BRC1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.2.6.4811"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "CAMEL",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1126/science.aba3178"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "CCD7",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.109.137646",
+            "10.1371/journal.pgen.1007089"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "CCD8",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.109.137646",
+            "10.1371/journal.pgen.1007089"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "Cytokinin",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9959016393442622,
+          "support_dois": [
+            "10.1104/pp.15.00014",
+            "10.1371/journal.pbio.1002446",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.004098360655737706,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "D27",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "DRM1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.104.057984"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "PIN1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.114.242388",
+            "10.1371/journal.pbio.1002446"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.104.058743",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Auxin",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.109.137646",
+            "10.1371/journal.pbio.1002446"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin_canalization",
+      "target": "Bud_PIN_polarization",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1038/srep35955"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Auxin_canalization",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.cub.2006.01.058"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BES1",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/eraf027"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "ABA",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/jxb/erw479",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "ABF3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "ABI1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "ABI5",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "AFP1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "AFP3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "Auxin_efflux",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pbio.3003395"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "BRC2",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.2.6.4811"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "BRM",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/tpj.16873"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "DRM1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.004098360655737706,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9959016393442622,
+          "support_dois": [
+            "10.1104/pp.104.057984",
+            "10.1104/pp.109.148833",
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "FT",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1105/tpc.112.109090"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "GBF3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.19420"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "GH3.5",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pbio.3003395"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "MAX1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pbio.3003395"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "NAC019",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "NAC092",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "NAP",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "NCED3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "PIN3",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1073/pnas.1907968116",
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "BRC1",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/jxb/eraf027",
+            "10.1104/pp.111.182725"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "BRM",
+      "target": "BRC1",
+      "observed_signs": [
+        0
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 1.0,
+          "support_dois": [
+            "10.4161/psb.27994"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CAMEL",
+      "target": "PIN1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1126/science.aba3178"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CANAR",
+      "target": "PIN1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1126/science.aba3178"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CANAR",
+      "target": "Vasculature_Regeneration",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1126/science.aba3178"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CCD7",
+      "target": "Carlactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1073/pnas.1601729113"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CCD7",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/pcp/pcad088",
+            "10.1104/pp.109.137646"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CCD8",
+      "target": "Carlactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1073/pnas.1601729113"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CCD8",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/pcp/pcad088",
+            "10.1104/pp.109.137646"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "CKX9",
+      "target": "Cytokinin",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.821563"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "CUC2",
+      "target": "LAS",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Cytokinin",
+      "target": "Axillary_meristem_initiation",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.pbi.2017.09.001"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Cytokinin",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.111.182725",
+            "10.1242/dev.145649"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Cytokinin",
+      "target": "PIN3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.17.01691"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Cytokinin",
+      "target": "PIN7",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.17.01691"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Cytokinin",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.109.135475"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Cytokinin",
+      "target": "TIE1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1126/sciadv.abn5057"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Cytokinin",
+      "target": "WUS",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "D14",
+      "target": "BES1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.devcel.2013.11.010"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "D14",
+      "target": "D14",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1038/s41467-018-08124-7"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "D14",
+      "target": "MAX2",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1038/nature19073"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "D14",
+      "target": "SMXL678",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/jxb/erae365",
+            "10.3389/fpls.2022.887232"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "D14",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/jxb/erx434",
+            "10.1242/dev.074567"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "D27",
+      "target": "Carlactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1073/pnas.1601729113"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "D27",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/pcp/pcad088",
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "DELLA",
+      "target": "SPL9",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/jipb.12818"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "DRM1",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.104.057984"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "Auxin",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.104.058743",
+            "10.1104/pp.109.135475"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.2.6.4811"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "Cytokinin",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.004098360655737706,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9959016393442622,
+          "support_dois": [
+            "10.1093/plphys/kiad034",
+            "10.1104/pp.109.135475",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "DRM1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.104.057984"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "GA1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiad034"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.104.058743",
+            "10.1104/pp.109.135475"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "Strigolactone",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.109.135475"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "Sucrose",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.18.00519",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Decapitation",
+      "target": "T6P",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/tpj.13705"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "FT",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab586"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "FT",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab586"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "GA",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2019.00076"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "GA",
+      "target": "DELLA",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/jipb.12818"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "HB21",
+      "target": "NCED5",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiae207"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "HB40",
+      "target": "NCED5",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiae207"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "HB53",
+      "target": "NCED5",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiae207"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "HXK1",
+      "target": "Cytokinin",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.17427"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "HXK1",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.17427"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "KAI2",
+      "target": "MAX2",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1242/dev.074567"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "KAI2",
+      "target": "SMAX1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1073/pnas.2412793122",
+            "10.3389/fpls.2022.887232"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "LAS",
+      "target": "ROX",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/j.1365-313x.2012.04970.x"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "LBO",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1073/pnas.1601729113",
+            "10.1093/pcp/pcad088"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Low_R_FR",
+      "target": "BRC1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1105/tpc.112.108480"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Low_R_FR",
+      "target": "PIF4",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erw479"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Low_R_FR",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1105/tpc.112.108480"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "MAX1",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.0013698630136986301,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9986301369863014,
+          "support_dois": [
+            "10.1073/pnas.1601729113",
+            "10.1093/jxb/erad412",
+            "10.1093/jxb/erx434",
+            "10.1093/pcp/pcad088"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "MAX2",
+      "target": "BES1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.devcel.2013.11.010"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "MAX2",
+      "target": "BRC1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.4161/psb.2.6.4811"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "MAX2",
+      "target": "D14",
+      "observed_signs": [
+        -1,
+        0
+      ],
+      "is_conflict": true,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.5000000000000001,
+          "support_dois": [
+            "10.1093/jxb/erae365"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.4999999999999999,
+          "support_dois": [
+            "10.1038/cr.2015.122"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "MAX2",
+      "target": "PIN1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.cub.2006.01.058"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "MAX2",
+      "target": "SMXL5",
+      "observed_signs": [
+        0
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 1.0,
+          "support_dois": [
+            "10.1016/j.molp.2024.03.006"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "MAX2",
+      "target": "SMXL678",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.3389/fpls.2022.887232",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "MAX2",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/jxb/erx434",
+            "10.1104/pp.109.137646"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "NCED5",
+      "target": "ABA",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/j.1365-313x.2011.04887.x"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Nitrogen",
+      "target": "CCD7",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1080/15592324.2015.1126031"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Nitrogen",
+      "target": "CCD8",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1080/15592324.2015.1126031"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Nitrogen",
+      "target": "Cytokinin",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.109.135475"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Nitrogen",
+      "target": "IPT",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.109.135475"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Nitrogen",
+      "target": "PIN3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.17.01691"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Nitrogen",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1080/15592324.2015.1126031",
+            "10.1104/pp.114.242388"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Nitrogen",
+      "target": "Strigolactone",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.114.242388"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "PDR1",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erx434"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PHYB",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1105/tpc.112.108480"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "PHYB",
+      "target": "BRC2",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.109.148833"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "PHYB",
+      "target": "GH3.5",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.113.234021"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "PHYB",
+      "target": "IAA3",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.113.234021"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "PHYB",
+      "target": "SAUR9",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.113.234021"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "PHYB",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.109.148833",
+            "10.1104/pp.113.234021"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIF5",
+      "target": "ABI5",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erw479"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIF5",
+      "target": "AREB3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erw479"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIF5",
+      "target": "CYP707A3",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erw479"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "PIF5",
+      "target": "NCED3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erw479"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIF5",
+      "target": "NCED4",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erw479"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIN1",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/jxb/erx434",
+            "10.1242/bio.021402"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIN3",
+      "target": "Connective_Auxin_Transport",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pbio.1002446"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIN4",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pbio.1002446"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "PIN7",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pbio.1002446"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Phosphorus",
+      "target": "CCD7",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Phosphorus",
+      "target": "CCD8",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Phosphorus",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Phosphorus",
+      "target": "Strigolactone",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Photoperiod",
+      "target": "FT",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab586"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Photoperiod",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab586"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "RAX1",
+      "target": "Axillary_meristem_initiation",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.pbi.2017.09.001"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "RAX1",
+      "target": "CUC2",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1105/tpc.105.038588"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "RAX1",
+      "target": "ROX",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/j.1365-313x.2012.04970.x"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "RAX1",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1105/tpc.105.038588"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "ROX",
+      "target": "Axillary_meristem_initiation",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/j.1365-313x.2012.04970.x"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "ROX",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/j.1365-313x.2012.04970.x"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMAX1",
+      "target": "PIF4",
+      "observed_signs": [
+        0
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 1.0,
+          "support_dois": [
+            "10.1073/pnas.2412793122"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL5",
+      "target": "D14",
+      "observed_signs": [
+        0
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 1.0,
+          "support_dois": [
+            "10.1016/j.molp.2024.03.006"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL5",
+      "target": "SMXL678",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.molp.2024.03.006"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL6",
+      "target": "PIN1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1242/bio.021402"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "ABI5",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/pcp/pcaa066"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "BRC1",
+      "observed_signs": [
+        -1,
+        0
+      ],
+      "is_conflict": true,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.8999999999999999,
+          "support_dois": [
+            "10.1073/pnas.2412793122",
+            "10.1371/journal.pbio.3003395",
+            "10.3389/fpls.2022.887232"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.10000000000000003,
+          "support_dois": [
+            "10.1073/pnas.2412793122"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "D14",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erae365"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "DELLA",
+      "observed_signs": [
+        0
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 1.0,
+          "support_dois": [
+            "10.1093/jxb/eraf027"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "MAX1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/pcp/pcaa066"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "PAP1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1073/pnas.2412793122",
+            "10.1093/pcp/pcaa066"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "PIN1",
+      "observed_signs": [
+        -1,
+        1
+      ],
+      "is_conflict": true,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.49090909090909085,
+          "support_dois": [
+            "10.1093/jxb/erx434"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.01818181818181818,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.49090909090909085,
+          "support_dois": [
+            "10.1093/jxb/eraf027"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "SMXL678",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1038/s41586-020-2382-x"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "SMXL7",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/eraf027"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "SnRK2.3",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/eraf027"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "SMXL678",
+      "target": "TPL",
+      "observed_signs": [
+        0,
+        1
+      ],
+      "is_conflict": true,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.5000000000000001,
+          "support_dois": [
+            "10.1093/jxb/eraf027"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 1,
+          "probability": 0.4999999999999999,
+          "support_dois": [
+            "10.3389/fpls.2022.887232"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SMXL7",
+      "target": "PIN1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1242/bio.021402"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SPS",
+      "target": "Cytokinin",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1101/gad.887301"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "SPS",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1101/gad.887301"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "STM",
+      "target": "Cytokinin",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SYD",
+      "target": "BRC1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/tpj.16873"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "SnRK1",
+      "target": "BRC1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/tpj.13705"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "ABA",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/pcp/pcad088"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "Auxin",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9959016393442622,
+          "support_dois": [
+            "10.1093/plphys/kiab071",
+            "10.1104/pp.15.00014",
+            "10.1371/journal.pgen.1007089"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.004098360655737706,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "BRC1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.004098360655737706,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9959016393442622,
+          "support_dois": [
+            "10.1038/s41586-020-2382-x",
+            "10.1104/pp.111.182725",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "CKX",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/plphys/kiad034",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "CKX9",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.821563"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "Cytokinin",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9959016393442622,
+          "support_dois": [
+            "10.1093/pcp/pcad088",
+            "10.1093/plphys/kiab071",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.004098360655737706,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "D14",
+      "observed_signs": [
+        -1,
+        0,
+        1
+      ],
+      "is_conflict": true,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.12499999999999996,
+          "support_dois": [
+            "10.1093/jxb/erae365"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.12500000000000006,
+          "support_dois": [
+            "10.1038/cr.2015.122"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 1,
+          "probability": 0.75,
+          "support_dois": [
+            "10.1038/nature19073",
+            "10.1038/s41467-018-08124-7"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "DELLA",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1038/ncomms3613"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "IPT",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiad034"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "LOG",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiad034"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "MAX2",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.tplants.2019.12.009"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "PIN1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9959016393442622,
+          "support_dois": [
+            "10.1016/j.cub.2006.01.058",
+            "10.1371/journal.pbio.1001474",
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.004098360655737706,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "SMXL678",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erae365"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "SYD",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/tpj.16873"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1038/nature07271",
+            "10.1104/pp.15.00014"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "Strigolactone",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/pcp/pcaa066"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "T6P",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.20072"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "TAR2",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1371/journal.pgen.1007089"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Strigolactone",
+      "target": "TCP1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1038/s41586-020-2382-x"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.889045"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "Cytokinin",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/plphys/kiab003",
+            "10.1093/plphys/kiad034"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "D14",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.17834"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "DRM1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.104.057984"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "IPT3",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erv047"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "IPT5",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erv047"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "MAX2",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1093/jxb/erv047",
+            "10.1111/nph.17834"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "PIN1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erv047"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.18.00519",
+            "10.1111/nph.17834"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "Strigolactone",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.16201"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "T6P",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1104/pp.16.00417"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "TAR1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erv047"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "TOR",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.830840"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "Sucrose",
+      "target": "YUC1",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/jxb/erv047"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "T6P",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/tpj.13705"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "T6P",
+      "target": "FT",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.17006"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "T6P",
+      "target": "Shoot_Branching",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.17006"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "T6P",
+      "target": "SnRK1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9878048780487805,
+          "support_dois": [
+            "10.1104/pp.16.00417",
+            "10.1111/tpj.13705"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.012195121951219518,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "TCP14",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.19950"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "TCP15",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1111/nph.19950"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "TOR",
+      "target": "BRC1",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.3389/fpls.2022.830840"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "WUS",
+      "target": "STM",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        },
+        {
+          "sign": 1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1093/plphys/kiab071"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "miR156",
+      "target": "SPL15",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1007/s11103-008-9310-z"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "miR156",
+      "target": "SPL9",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1007/s11103-008-9310-z"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    },
+    {
+      "source": "miR164",
+      "target": "CUC2",
+      "observed_signs": [
+        -1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.9642857142857143,
+          "support_dois": [
+            "10.1016/j.pbi.2017.09.001"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 0,
+          "probability": 0.035714285714285726,
+          "support_dois": [],
+          "omission_is_model_assumption": true
+        }
+      ]
+    }
+  ],
+  "total_combinations": 225975662473920507498088419235475990979684796000705242464256,
+  "retained_hypotheses": 16,
+  "retained_prior_mass": 0.002075637958901464,
+  "observed_conflict_states_protected": true,
+  "approximation": "top-k beam; discarded graphs cannot recover",
+  "omission_prior": 0.1
+}

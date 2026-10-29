@@ -1,0 +1,66 @@
+[
+  {
+    "id": "train0",
+    "genes": {
+      "B": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Trait",
+    "context": "synthetic_control",
+    "outcome": -1,
+    "dois": [
+      "synthetic:experiment_train0"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "train1",
+    "genes": {
+      "B": 0.2
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Trait",
+    "context": "synthetic_control",
+    "outcome": -1,
+    "dois": [
+      "synthetic:experiment_train1"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "train2",
+    "genes": {
+      "B": 0.4
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Trait",
+    "context": "synthetic_control",
+    "outcome": -1,
+    "dois": [
+      "synthetic:experiment_train2"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "train3",
+    "genes": {
+      "B": 0.6
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Trait",
+    "context": "synthetic_control",
+    "outcome": -1,
+    "dois": [
+      "synthetic:experiment_train3"
+    ],
+    "cost": 1.0
+  }
+]

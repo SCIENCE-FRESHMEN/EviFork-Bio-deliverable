@@ -1,0 +1,38 @@
+[
+  {
+    "id": "positive",
+    "source": "A",
+    "target": "B",
+    "sign": 1,
+    "doi": "synthetic:positive",
+    "context": "synthetic_control",
+    "quality": "unknown"
+  },
+  {
+    "id": "negative",
+    "source": "A",
+    "target": "B",
+    "sign": -1,
+    "doi": "synthetic:negative",
+    "context": "synthetic_control",
+    "quality": "unknown"
+  },
+  {
+    "id": "endpoint",
+    "source": "B",
+    "target": "Trait",
+    "sign": 1,
+    "doi": "synthetic:endpoint",
+    "context": "synthetic_control",
+    "quality": "unknown"
+  },
+  {
+    "id": "null_control",
+    "source": "C",
+    "target": "Trait",
+    "sign": 0,
+    "doi": "synthetic:null_control",
+    "context": "synthetic_control",
+    "quality": "unknown"
+  }
+]

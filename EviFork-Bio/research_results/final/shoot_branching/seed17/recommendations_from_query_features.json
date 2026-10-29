@@ -1,0 +1,200 @@
+[
+  {
+    "id": "T128",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SMXL678": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.09573611980735663,
+    "predictive_probabilities": [
+      0.8266770483652809,
+      0.08666147581735958,
+      0.08666147581735958
+    ],
+    "model_coverage": 0.8706065559387308,
+    "information_gain_per_cost": 0.09573611980735663
+  },
+  {
+    "id": "T011",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SMXL6": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T012",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SMXL7": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T013",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SMXL8": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T017",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "NCED3": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T018",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "ABA2": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T021",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "TIE1": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T129",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SMXL7": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T159",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "miR156": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  }
+]

@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "T011",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "APRF1": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T014",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "BBX19": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T026",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "CO": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T028",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "COOLAIR": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T030",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "CRY2": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T031",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "CRY2": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T032",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "DELLA": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.05,
+      0.9
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T050",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "FKF1": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T056",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "FLD": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T057",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "FLD": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T059",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "FLM": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T068",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "FRI": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T079",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "FVE": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T080",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "FVE": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T089",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "GI": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T090",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "GI": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T091",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "GI": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T092",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "GI": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T097",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HDA15": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T099",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HDA6": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T100",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HDA6": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T101",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HDA9": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T102",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HOS1": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T103",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HOS1": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T104",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HOS1": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T107",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "LD": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T118",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "NTL8": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T119",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PECT1": 0.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T120",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PECT1": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T121",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PEP": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T122",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PHO2": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T123",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PHYA": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T124",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PHYB": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T125",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PHYB": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T128",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PIF4": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T129",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PIF4": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T130",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "PIF5": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T135",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "REF6": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T136",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "REF6": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T140",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SDG26": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T154",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SPL9": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T155",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SPL9": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T156",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "SPL9": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T168",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "TOE1": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T177",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "TSF": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T178",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "TSF": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T188",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "ZTL": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T189",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "miR156": 0.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.05,
+      0.9
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T190",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "miR156": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.9,
+      0.05,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T191",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "miR156": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.9,
+      0.05,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T194",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "miR399": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Flowering_Time",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "model_coverage": 0,
+    "information_gain_per_cost": 0.0
+  }
+]

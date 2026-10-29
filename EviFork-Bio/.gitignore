@@ -1,0 +1,95 @@
+# Private — never push
+Manuscript/
+EVIFORK_BIO_ANALYSIS_LOG.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~
+
+# OneDrive / Office lock files
+~$*.*
+.~lock.*
+
+# Local scratch / Claude Code state
+.claude/
+# ...but each shipped version carries its Claude Code config (slash command, subagents, settings).
+# Plant ships three coding-agent variants, so its config lives under Claude/; Medical and Animal
+# are Claude-only, so their .claude sits at the version root.
+!EviFork_Bio_Plant/Claude/.claude/
+!EviFork_Bio_Plant/Claude/.claude/agents/
+!EviFork_Bio_Plant/Claude/.claude/agents/**
+!EviFork_Bio_Plant/Claude/.claude/commands/
+!EviFork_Bio_Plant/Claude/.claude/commands/**
+!EviFork_Bio_Plant/Claude/.claude/settings.json
+!EviFork_Bio_Medical/.claude/
+!EviFork_Bio_Medical/.claude/agents/
+!EviFork_Bio_Medical/.claude/agents/**
+!EviFork_Bio_Medical/.claude/commands/
+!EviFork_Bio_Medical/.claude/commands/**
+!EviFork_Bio_Medical/.claude/settings.json
+!EviFork_Bio_Animal/.claude/
+!EviFork_Bio_Animal/.claude/agents/
+!EviFork_Bio_Animal/.claude/agents/**
+!EviFork_Bio_Animal/.claude/commands/
+!EviFork_Bio_Animal/.claude/commands/**
+!EviFork_Bio_Animal/.claude/settings.json
+# ...but never the personal/runtime state inside them
+EviFork_Bio_Plant/Claude/.claude/settings.local.json
+EviFork_Bio_Plant/Claude/.claude/*.lock
+EviFork_Bio_Plant/Claude/.claude/worktrees/
+EviFork_Bio_Medical/.claude/settings.local.json
+EviFork_Bio_Medical/.claude/*.lock
+EviFork_Bio_Medical/.claude/worktrees/
+EviFork_Bio_Animal/.claude/settings.local.json
+EviFork_Bio_Animal/.claude/*.lock
+EviFork_Bio_Animal/.claude/worktrees/
+*.log
+*.tmp
+
+# Provenance paper cache — abstracts and open-access full texts fetched from
+# OpenAlex / Europe PMC. Regenerable, machine-local, and large.
+.evifork_bio_cache/
+
+# README HTML preview (regenerable from README.md via pandoc)
+README_preview.html
+README.html
+.readme_preview.css
+
+# Quarto / RStudio render sidecars and cache
+README_files/
+*_files/
+.quarto/
+
+# Oversize validator dumps (>50 MB; GitHub blocks >100 MB).
+# These are intermediate artefacts of the KG-Cleaned merged-network validation
+# run; they are recomputable from the network + the smaller validation_results
+# files, and the published metrics live in Supplementary Data 6.
+Outcome/Upstream_Causal_Network_VS_KG/KB_Cleaned/merged_arabidopsis_network/validation/ode_steady_state_dump.json
+Outcome/Upstream_Causal_Network_VS_KG/KB_Cleaned/merged_arabidopsis_network/validation/rwr_steady_state_dump.json
+Outcome/Upstream_Causal_Network_VS_KG/KB_Cleaned/merged_arabidopsis_network/validation/steady_state_dump.json
+
+# personally generated networks
+EviFork_Bio_Plant/Claude/networks/
+EviFork_Bio_Medical/Claude/networks/
+EviFork_Bio_Animal/Claude/networks/
+
+# personal figure data
+EviFork_Bio_Plant/Claude/Fig_Data/
+EviFork_Bio_Medical/Claude/Fig_Data/
+EviFork_Bio_Animal/Claude/Fig_Data/

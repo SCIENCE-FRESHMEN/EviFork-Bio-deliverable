@@ -1,0 +1,73 @@
+{
+  "pairs": [
+    {
+      "source": "A",
+      "target": "B",
+      "observed_signs": [
+        -1,
+        1
+      ],
+      "is_conflict": true,
+      "alternatives": [
+        {
+          "sign": -1,
+          "probability": 0.5,
+          "support_dois": [
+            "synthetic:negative"
+          ],
+          "omission_is_model_assumption": false
+        },
+        {
+          "sign": 1,
+          "probability": 0.5,
+          "support_dois": [
+            "synthetic:positive"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "B",
+      "target": "Trait",
+      "observed_signs": [
+        1
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 1,
+          "probability": 1.0,
+          "support_dois": [
+            "synthetic:endpoint"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Trait",
+      "observed_signs": [
+        0
+      ],
+      "is_conflict": false,
+      "alternatives": [
+        {
+          "sign": 0,
+          "probability": 1.0,
+          "support_dois": [
+            "synthetic:null_control"
+          ],
+          "omission_is_model_assumption": false
+        }
+      ]
+    }
+  ],
+  "total_combinations": 2,
+  "retained_hypotheses": 2,
+  "retained_prior_mass": 1.0,
+  "observed_conflict_states_protected": true,
+  "approximation": "exact",
+  "omission_prior": 0.0
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "T009",
+    "genes": {
+      "D27": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1242/bio.021402"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T010",
+    "genes": {
+      "LBO": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1073/pnas.1601729113"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T015",
+    "genes": {
+      "PHYB": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.109.148833"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T020",
+    "genes": {
+      "RAX1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.105.038588"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T031",
+    "genes": {
+      "ARR1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1104/pp.17.01691"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T036",
+    "genes": {
+      "FT": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1093/plphys/kiab586"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T037",
+    "genes": {
+      "FT": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1093/plphys/kiab586"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T038",
+    "genes": {
+      "KAI2": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 0,
+    "dois": [
+      "10.1242/bio.021402"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T101",
+    "genes": {
+      "CUC2": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1093/plphys/kiab071"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T121",
+    "genes": {
+      "Auxin": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.15.00014"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T133",
+    "genes": {
+      "Cytokinin": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.111.182725"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T160",
+    "genes": {
+      "DRM1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1104/pp.104.057984"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T161",
+    "genes": {
+      "NCED5": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1093/plphys/kiae207"
+    ],
+    "cost": 1.0
+  }
+]

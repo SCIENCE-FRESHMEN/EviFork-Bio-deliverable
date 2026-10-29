@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "T003",
+    "genes": {
+      "AGL24": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1073/pnas.212624599"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T004",
+    "genes": {
+      "AGL24": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1073/pnas.212624599"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T008",
+    "genes": {
+      "AP1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.3389/fpls.2022.852047"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T009",
+    "genes": {
+      "AP1": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1105/tpc.11.6.1007"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T010",
+    "genes": {
+      "AP2": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1105/tpc.110.075606"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T013",
+    "genes": {
+      "AtNDX": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1126/science.1234848"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T015",
+    "genes": {
+      "BRM": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1093/plcell/koad166"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T018",
+    "genes": {
+      "CBF1": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.108.063883"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T019",
+    "genes": {
+      "CBF2": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.108.063883"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T020",
+    "genes": {
+      "CBF3": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.108.063883"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T023",
+    "genes": {
+      "CDF1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1111/tpj.12759"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T024",
+    "genes": {
+      "CLF": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1371/journal.pone.0021513"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T025",
+    "genes": {
+      "CLF": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.19.01009"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T027",
+    "genes": {
+      "COLDAIR": 0.5
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1371/journal.pgen.1006939"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T040",
+    "genes": {
+      "FBH1": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1073/pnas.1118876109"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T042",
+    "genes": {
+      "FBH2": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1073/pnas.1118876109"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T043",
+    "genes": {
+      "FCA": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1534/genetics.104.036533"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T044",
+    "genes": {
+      "FCA": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.19.01009"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T045",
+    "genes": {
+      "FD": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1371/journal.pone.0116973"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T046",
+    "genes": {
+      "FD": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1242/dev.204241"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T047",
+    "genes": {
+      "FDP": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1242/dev.204241"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T049",
+    "genes": {
+      "FIE": 0.5
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1073/pnas.0606385103"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T052",
+    "genes": {
+      "FLC": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1104/pp.105.061309"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T053",
+    "genes": {
+      "FLC": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1104/pp.126.1.122",
+      "10.1371/journal.pone.0116973"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T054",
+    "genes": {
+      "FLC": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.105.061309"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T055",
+    "genes": {
+      "FLC": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.126.1.122"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T058",
+    "genes": {
+      "FLK": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1093/aob/mcx132"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T064",
+    "genes": {
+      "FPA": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1534/genetics.104.036533"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T065",
+    "genes": {
+      "FPA": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.13.6.1427"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T066",
+    "genes": {
+      "FPA": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1105/tpc.13.6.1427"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T067",
+    "genes": {
+      "FRI": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1104/pp.105.061309"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T071",
+    "genes": {
+      "FT": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1093/jxb/eraa057"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T072",
+    "genes": {
+      "FT": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.108.063883"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T073",
+    "genes": {
+      "FT": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1371/journal.pone.0116973"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T074",
+    "genes": {
+      "FT": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.4161/psb.4.2.7558"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T075",
+    "genes": {
+      "FT": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.4161/psb.4.2.7558"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T076",
+    "genes": {
+      "FTIP1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.18.00960"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T081",
+    "genes": {
+      "FY": 0.5
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.110.167817"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T083",
+    "genes": {
+      "GA20ox": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1199/tab.0103"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T085",
+    "genes": {
+      "GA2ox": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1199/tab.0103"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T093",
+    "genes": {
+      "GID1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1199/tab.0103"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T105",
+    "genes": {
+      "HUA2": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1093/plphys/kiaf225"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T108",
+    "genes": {
+      "LFY": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.3389/fpls.2022.852047"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T113",
+    "genes": {
+      "MAF4": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1105/tpc.112.104760"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T114",
+    "genes": {
+      "MAF5": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1105/tpc.112.104760"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T116",
+    "genes": {
+      "NFL": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1242/dev.128595"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T117",
+    "genes": {
+      "NF_YC": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1093/plcell/koad166"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T134",
+    "genes": {
+      "QKY": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.18.00960"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T144",
+    "genes": {
+      "SOC1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.108.063883"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T145",
+    "genes": {
+      "SOC1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.112.202614"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T146",
+    "genes": {
+      "SOC1": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1073/pnas.212624599"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T159",
+    "genes": {
+      "SSF": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1038/s41467-020-19666-0"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T161",
+    "genes": {
+      "SVP": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1105/tpc.108.063883"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T162",
+    "genes": {
+      "SVP": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1073/pnas.1409567111",
+      "10.1101/gad.1518407"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T163",
+    "genes": {
+      "SVP": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.108.061531"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T164",
+    "genes": {
+      "SVP": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1101/gad.1518407"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T165",
+    "genes": {
+      "SYP121": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.18.00960"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T166",
+    "genes": {
+      "TFL1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1105/tpc.111.088641"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T167",
+    "genes": {
+      "TFL1": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.111.088641"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T172",
+    "genes": {
+      "TPPI": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1007/s00425-020-03389-z"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T173",
+    "genes": {
+      "TPPI": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1093/jxb/ert457"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T174",
+    "genes": {
+      "TPS1": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1104/pp.104.039743"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T175",
+    "genes": {
+      "TPS1": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.1093/jxb/ert457"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T181",
+    "genes": {
+      "VIL2": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1105/tpc.112.104760"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T183",
+    "genes": {
+      "VIN3": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1073/pnas.0606385103"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T186",
+    "genes": {
+      "VRN2": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1073/pnas.0606385103"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T187",
+    "genes": {
+      "VRN5": 0.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": -1,
+    "dois": [
+      "10.1073/pnas.0808687105"
+    ],
+    "cost": 1.0
+  },
+  {
+    "id": "T192",
+    "genes": {
+      "miR172": 2.0
+    },
+    "supply": {},
+    "baseline_genes": {},
+    "baseline_supply": {},
+    "phenotype": "Flowering_Time",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "outcome": 1,
+    "dois": [
+      "10.3390/genes11030319"
+    ],
+    "cost": 1.0
+  }
+]

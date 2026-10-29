@@ -1,0 +1,104 @@
+{
+  "seed": 17,
+  "assignment_uses_outcomes": false,
+  "explicit_assignment": true,
+  "roles": {
+    "train": {
+      "ids": [
+        "train0",
+        "train1",
+        "train2",
+        "train3"
+      ],
+      "dois": [
+        "synthetic:experiment_train0",
+        "synthetic:experiment_train1",
+        "synthetic:experiment_train2",
+        "synthetic:experiment_train3"
+      ],
+      "components": [
+        "14cebc1ba0d26dec",
+        "1e8fd0dbd8ca871a",
+        "d8ea37aae8027412",
+        "e07c947aec6e94ba"
+      ]
+    },
+    "calibration": {
+      "ids": [
+        "cal0",
+        "cal1",
+        "cal2",
+        "cal3"
+      ],
+      "dois": [
+        "synthetic:experiment_cal0",
+        "synthetic:experiment_cal1",
+        "synthetic:experiment_cal2",
+        "synthetic:experiment_cal3"
+      ],
+      "components": [
+        "53bc55f778a00915",
+        "9e34d0d6c0217252",
+        "dc80aa7a233bfc8a",
+        "f76126955d181569"
+      ]
+    },
+    "query": {
+      "ids": [
+        "decoy0",
+        "decoy1",
+        "decoy2",
+        "decoy3",
+        "decoy4",
+        "decoy5",
+        "decoy6",
+        "decoy7",
+        "informative_A"
+      ],
+      "dois": [
+        "synthetic:experiment_decoy0",
+        "synthetic:experiment_decoy1",
+        "synthetic:experiment_decoy2",
+        "synthetic:experiment_decoy3",
+        "synthetic:experiment_decoy4",
+        "synthetic:experiment_decoy5",
+        "synthetic:experiment_decoy6",
+        "synthetic:experiment_decoy7",
+        "synthetic:experiment_informative_A"
+      ],
+      "components": [
+        "269f4b5e233f8938",
+        "2e42cd34eac30ab8",
+        "6174847ef537f325",
+        "91f34b2b9f00b2ff",
+        "92bc1d53a3030706",
+        "b53737893191cb29",
+        "c55e87d35e737f56",
+        "cc0ede0ee41ccd0e",
+        "ec91fc372838395f"
+      ]
+    },
+    "test": {
+      "ids": [
+        "test0",
+        "test1",
+        "test2",
+        "test3"
+      ],
+      "dois": [
+        "synthetic:experiment_test0",
+        "synthetic:experiment_test1",
+        "synthetic:experiment_test2",
+        "synthetic:experiment_test3"
+      ],
+      "components": [
+        "10efe020d02f3912",
+        "2569e2e5511424d1",
+        "c2a50c5f07345dc1",
+        "f2f8bbe762f1d367"
+      ]
+    }
+  },
+  "training_claims_sha256": "cf9daf078150e9f01197071f694fc18439b534fb9409b5ff12faff660711735e",
+  "excluded_claim_ids": []
+}

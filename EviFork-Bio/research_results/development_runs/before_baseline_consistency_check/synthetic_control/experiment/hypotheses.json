@@ -1,0 +1,59 @@
+{
+  "format_version": 1,
+  "metadata": {
+    "source_type": "synthetic",
+    "context": "synthetic_control",
+    "phenotype_node": "Trait",
+    "limitations": [
+      "Synthetic control only; not biological evidence or performance on a real discovery task."
+    ]
+  },
+  "nodes": [
+    "A",
+    "B",
+    "C",
+    "Trait"
+  ],
+  "noise": 0.05,
+  "temperature": 0.5,
+  "hypotheses": [
+    {
+      "id": "H_091e818127ce3395",
+      "edges": [
+        [
+          "A",
+          "B",
+          -1
+        ],
+        [
+          "B",
+          "Trait",
+          1
+        ]
+      ],
+      "log_prior": -0.6931471805599453,
+      "weight": 0.5
+    },
+    {
+      "id": "H_00fe2a45492adaa1",
+      "edges": [
+        [
+          "A",
+          "B",
+          1
+        ],
+        [
+          "B",
+          "Trait",
+          1
+        ]
+      ],
+      "log_prior": -0.6931471805599453,
+      "weight": 0.5
+    }
+  ],
+  "observations": [],
+  "state_role": "training_fit_before_retrospective_query_replay",
+  "dataset_sha256": "ac68400d860f49d211ff267568acfb4efcee484433ff4a3580b18c1c609d8787",
+  "split_manifest_sha256": "eef9f430d867563a51817c97253eafb3127baed0a699c893d23527f740b65078"
+}
