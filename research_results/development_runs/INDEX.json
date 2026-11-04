@@ -1,0 +1,8 @@
+{
+  "purpose": "Preserved development runs, not final evidence or preregistered experiments.",
+  "initial_runs": "16 hypotheses, omission_prior=.1, before numerical tie handling and training-MAP single baseline correction.",
+  "prior_to_final_provenance": "32 hypotheses, omission_prior=0; before adding final code/source fingerprints and import source hashes.",
+  "changes_reason": "Avoid inventing omission evidence by default; preserve actual observed conflicts; remove floating-point argmax artifacts and record reproducible provenance.",
+  "final_results": "../final",
+  "selection_note": "All planned final splits 17,18,19 for both traits are reported. No split discarded on performance."
+}

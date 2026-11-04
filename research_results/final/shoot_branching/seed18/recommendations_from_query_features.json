@@ -1,0 +1,90 @@
+[
+  {
+    "id": "T019",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "LAS": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.9,
+      0.05,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T020",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "RAX1": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.9,
+      0.05,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T060",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "CKX": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "T084",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "HB21": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.05,
+      0.05,
+      0.9
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  }
+]

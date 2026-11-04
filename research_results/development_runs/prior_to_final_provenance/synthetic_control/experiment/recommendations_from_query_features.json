@@ -1,0 +1,200 @@
+[
+  {
+    "id": "informative_A",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "A": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.559552747809608,
+    "predictive_probabilities": [
+      0.4875,
+      0.025,
+      0.4875
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.559552747809608
+  },
+  {
+    "id": "decoy0",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 0.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "decoy1",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 0.3
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "decoy2",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 0.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "decoy3",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 0.7
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "decoy4",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 1.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "decoy5",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 2.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "decoy6",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 3.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  },
+  {
+    "id": "decoy7",
+    "cost": 1.0,
+    "features": {
+      "genes": {
+        "C": 4.0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Trait",
+      "context": "synthetic_control"
+    },
+    "expected_information_gain_nats": 0.0,
+    "predictive_probabilities": [
+      0.025,
+      0.95,
+      0.025
+    ],
+    "model_coverage": 1.0,
+    "information_gain_per_cost": 0.0
+  }
+]

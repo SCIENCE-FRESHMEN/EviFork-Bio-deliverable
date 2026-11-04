@@ -1,0 +1,2066 @@
+{
+  "evaluation_type": "synthetic_control",
+  "implementation_sha256": "799235b3a1f0407e9e131c7b25598ea0c4731797408465fb45f67ff169bd93a1",
+  "upstream_solver_files_sha256": {
+    "flashp_validator.py": "39433ffbed156a3a26e1bea6808ad4a29f3e14595243998a1dd386b4459c8375",
+    "validation_common.py": "d43464ceb6917fede0c48ed817a9170901137003f6c57b675d339d9c5e85449b",
+    "equation_executor.py": "352167526087be4ab4b3a768262060ba861564a35996dea83ed49ec34676f450",
+    "light_io.py": "9650f1da90d89ad69add753571d3b09844f564b3d9a6ea875753ce85dfb5b32f"
+  },
+  "configuration": {
+    "max_hypotheses": 8,
+    "omission_prior": 0.0,
+    "observation_noise": 0.05,
+    "budget": 3.0,
+    "replay_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "prospective_discovery": false,
+  "dataset_sha256": "ac68400d860f49d211ff267568acfb4efcee484433ff4a3580b18c1c609d8787",
+  "seed": 17,
+  "sizes": {
+    "train": 4,
+    "calibration": 4,
+    "query": 9,
+    "test": 4
+  },
+  "construction_claims": 4,
+  "excluded_heldout_claims": 0,
+  "evidence_reliability": {
+    "status": "unfitted_prior_only",
+    "prior": {
+      "alpha": 3,
+      "beta": 1
+    },
+    "audited_paper_bucket_count": 0,
+    "buckets": {
+      "unknown": {
+        "alpha": 3.0,
+        "beta": 1.0,
+        "mean": 0.75
+      }
+    },
+    "assumption": "Paper likelihood factors independent across papers; repeated same-paper claims count once per pair."
+  },
+  "predictive_calibration_status": "fitted_on_calibration_only",
+  "hypothesis_space": {
+    "total_combinations": 2,
+    "retained_hypotheses": 2,
+    "retained_prior_mass": 1.0,
+    "observed_conflict_states_protected": true,
+    "approximation": "exact",
+    "omission_prior": 0.0
+  },
+  "conflicting_pairs": 1,
+  "baselines": {
+    "competing_hypotheses": {
+      "status": "same_split_reconstructed_from_training_evidence",
+      "metrics": {
+        "n": 4,
+        "accuracy": 0.5,
+        "nll": 0.6944612411958144,
+        "brier": 0.5000025867320478,
+        "ece": 0.0006565988181221893,
+        "confusion_matrix_order": [
+          -1,
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+        "reliability_bins": [
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 4,
+            "mean_confidence": 0.4993434011818778,
+            "accuracy": 0.5
+          }
+        ],
+        "mean_model_coverage": 1.0,
+        "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+      },
+      "uncalibrated_metrics": {
+        "n": 4,
+        "accuracy": 0.5,
+        "nll": 0.7184649885442351,
+        "brier": 0.5009375,
+        "ece": 0.012499999999999956,
+        "confusion_matrix_order": [
+          -1,
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+        "reliability_bins": [
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 4,
+            "mean_confidence": 0.48750000000000004,
+            "accuracy": 0.5
+          }
+        ],
+        "mean_model_coverage": 1.0,
+        "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+      },
+      "temperature": 0.5,
+      "calibration_status": "fitted_on_calibration_only",
+      "predictions": [
+        {
+          "id": "test0",
+          "outcome": -1,
+          "probabilities": [
+            0.4993434011818778,
+            0.001313197636244255,
+            0.4993434011818778
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test1",
+          "outcome": -1,
+          "probabilities": [
+            0.4993434011818778,
+            0.001313197636244255,
+            0.4993434011818778
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test2",
+          "outcome": 1,
+          "probabilities": [
+            0.4993434011818778,
+            0.001313197636244255,
+            0.4993434011818778
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test3",
+          "outcome": 1,
+          "probabilities": [
+            0.4993434011818778,
+            0.001313197636244255,
+            0.4993434011818778
+          ],
+          "model_coverage": 1.0
+        }
+      ]
+    },
+    "single_network": {
+      "status": "same_split_reconstructed_from_training_evidence",
+      "metrics": {
+        "n": 4,
+        "accuracy": 0.0,
+        "nll": 7.27655640271871,
+        "brier": 1.9958534919623743,
+        "ece": 0.9986168741355462,
+        "confusion_matrix_order": [
+          -1,
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+        "reliability_bins": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 4,
+            "mean_confidence": 0.9986168741355462,
+            "accuracy": 0.0
+          }
+        ],
+        "mean_model_coverage": 1.0,
+        "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+      },
+      "uncalibrated_metrics": {
+        "n": 4,
+        "accuracy": 0.0,
+        "nll": 3.6888794541139363,
+        "brier": 1.85375,
+        "ece": 0.9500000000000001,
+        "confusion_matrix_order": [
+          -1,
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+        "reliability_bins": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 4,
+            "mean_confidence": 0.9500000000000001,
+            "accuracy": 0.0
+          }
+        ],
+        "mean_model_coverage": 1.0,
+        "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+      },
+      "temperature": 0.5,
+      "calibration_status": "fitted_on_calibration_only",
+      "predictions": [
+        {
+          "id": "test0",
+          "outcome": -1,
+          "probabilities": [
+            0.0006915629322268327,
+            0.0006915629322268327,
+            0.9986168741355462
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test1",
+          "outcome": -1,
+          "probabilities": [
+            0.0006915629322268327,
+            0.0006915629322268327,
+            0.9986168741355462
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test2",
+          "outcome": 1,
+          "probabilities": [
+            0.9986168741355462,
+            0.0006915629322268327,
+            0.0006915629322268327
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test3",
+          "outcome": 1,
+          "probabilities": [
+            0.9986168741355462,
+            0.0006915629322268327,
+            0.0006915629322268327
+          ],
+          "model_coverage": 1.0
+        }
+      ],
+      "definition": "Maximum-posterior graph after identical training outcomes; no averaging."
+    },
+    "simple_vote": {
+      "status": "same_split_reconstructed_from_training_evidence",
+      "metrics": {
+        "n": 4,
+        "accuracy": 0.0,
+        "nll": 7.27655640271871,
+        "brier": 1.9958534919623743,
+        "ece": 0.9986168741355462,
+        "confusion_matrix_order": [
+          -1,
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+        "reliability_bins": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 4,
+            "mean_confidence": 0.9986168741355462,
+            "accuracy": 0.0
+          }
+        ],
+        "mean_model_coverage": 1.0,
+        "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+      },
+      "uncalibrated_metrics": {
+        "n": 4,
+        "accuracy": 0.0,
+        "nll": 3.6888794541139363,
+        "brier": 1.85375,
+        "ece": 0.9500000000000001,
+        "confusion_matrix_order": [
+          -1,
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+        "reliability_bins": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 4,
+            "mean_confidence": 0.9500000000000001,
+            "accuracy": 0.0
+          }
+        ],
+        "mean_model_coverage": 1.0,
+        "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+      },
+      "temperature": 0.5,
+      "calibration_status": "fitted_on_calibration_only",
+      "predictions": [
+        {
+          "id": "test0",
+          "outcome": -1,
+          "probabilities": [
+            0.0006915629322268327,
+            0.9986168741355462,
+            0.0006915629322268327
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test1",
+          "outcome": -1,
+          "probabilities": [
+            0.0006915629322268327,
+            0.9986168741355462,
+            0.0006915629322268327
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test2",
+          "outcome": 1,
+          "probabilities": [
+            0.0006915629322268327,
+            0.9986168741355462,
+            0.0006915629322268327
+          ],
+          "model_coverage": 1.0
+        },
+        {
+          "id": "test3",
+          "outcome": 1,
+          "probabilities": [
+            0.0006915629322268327,
+            0.9986168741355462,
+            0.0006915629322268327
+          ],
+          "model_coverage": 1.0
+        }
+      ],
+      "definition": "Unique-paper majority per pair; ties omit edge; no evidence reliability weights."
+    },
+    "original_flashp": {
+      "status": "not_run_requires_original_network_directory",
+      "metrics": null,
+      "reason": "Original LLM builder/refiner is not replaced by a fabricated deterministic baseline."
+    }
+  },
+  "query_replays": [
+    {
+      "policy": "information_gain",
+      "seed": 0,
+      "budget_ceiling": 3.0,
+      "spent": 1.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.11924692639624507,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 1.0,
+            "nll": 0.003488597718794704,
+            "brier": 2.025381442544819e-05,
+            "ece": 0.00348251963182733,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "n": 4,
+                "mean_confidence": 0.9965174803681727,
+                "accuracy": 1.0
+              }
+            ],
+            "mean_model_coverage": 0.9999999999999999,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.9743589743589742,
+          "queried_id": "informative_A",
+          "observed_outcome": -1,
+          "selection_eig_nats": 0.559552747809608
+        }
+      ],
+      "final_weights": [
+        0.025641025641025654,
+        0.9743589743589742
+      ],
+      "identification_cost_at_p95": 1.0,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "information_gain",
+      "seed": 1,
+      "budget_ceiling": 3.0,
+      "spent": 1.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.11924692639624507,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 1.0,
+            "nll": 0.003488597718794704,
+            "brier": 2.025381442544819e-05,
+            "ece": 0.00348251963182733,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "n": 4,
+                "mean_confidence": 0.9965174803681727,
+                "accuracy": 1.0
+              }
+            ],
+            "mean_model_coverage": 0.9999999999999999,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.9743589743589742,
+          "queried_id": "informative_A",
+          "observed_outcome": -1,
+          "selection_eig_nats": 0.559552747809608
+        }
+      ],
+      "final_weights": [
+        0.025641025641025654,
+        0.9743589743589742
+      ],
+      "identification_cost_at_p95": 1.0,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "information_gain",
+      "seed": 2,
+      "budget_ceiling": 3.0,
+      "spent": 1.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.11924692639624507,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 1.0,
+            "nll": 0.003488597718794704,
+            "brier": 2.025381442544819e-05,
+            "ece": 0.00348251963182733,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "n": 4,
+                "mean_confidence": 0.9965174803681727,
+                "accuracy": 1.0
+              }
+            ],
+            "mean_model_coverage": 0.9999999999999999,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.9743589743589742,
+          "queried_id": "informative_A",
+          "observed_outcome": -1,
+          "selection_eig_nats": 0.559552747809608
+        }
+      ],
+      "final_weights": [
+        0.025641025641025654,
+        0.9743589743589742
+      ],
+      "identification_cost_at_p95": 1.0,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "information_gain",
+      "seed": 3,
+      "budget_ceiling": 3.0,
+      "spent": 1.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.11924692639624507,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 1.0,
+            "nll": 0.003488597718794704,
+            "brier": 2.025381442544819e-05,
+            "ece": 0.00348251963182733,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "n": 4,
+                "mean_confidence": 0.9965174803681727,
+                "accuracy": 1.0
+              }
+            ],
+            "mean_model_coverage": 0.9999999999999999,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.9743589743589742,
+          "queried_id": "informative_A",
+          "observed_outcome": -1,
+          "selection_eig_nats": 0.559552747809608
+        }
+      ],
+      "final_weights": [
+        0.025641025641025654,
+        0.9743589743589742
+      ],
+      "identification_cost_at_p95": 1.0,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "information_gain",
+      "seed": 4,
+      "budget_ceiling": 3.0,
+      "spent": 1.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.11924692639624507,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 1.0,
+            "nll": 0.003488597718794704,
+            "brier": 2.025381442544819e-05,
+            "ece": 0.00348251963182733,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "n": 4,
+                "mean_confidence": 0.9965174803681727,
+                "accuracy": 1.0
+              }
+            ],
+            "mean_model_coverage": 0.9999999999999999,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.9743589743589742,
+          "queried_id": "informative_A",
+          "observed_outcome": -1,
+          "selection_eig_nats": 0.559552747809608
+        }
+      ],
+      "final_weights": [
+        0.025641025641025654,
+        0.9743589743589742
+      ],
+      "identification_cost_at_p95": 1.0,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "random",
+      "seed": 0,
+      "budget_ceiling": 3.0,
+      "spent": 3.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy6",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 2.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy7",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 3.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy0",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        }
+      ],
+      "final_weights": [
+        0.5,
+        0.5
+      ],
+      "identification_cost_at_p95": null,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "random",
+      "seed": 1,
+      "budget_ceiling": 3.0,
+      "spent": 3.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy2",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 2.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy1",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 3.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy4",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        }
+      ],
+      "final_weights": [
+        0.5,
+        0.5
+      ],
+      "identification_cost_at_p95": null,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "random",
+      "seed": 2,
+      "budget_ceiling": 3.0,
+      "spent": 3.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy0",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 2.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy2",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 3.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy1",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        }
+      ],
+      "final_weights": [
+        0.5,
+        0.5
+      ],
+      "identification_cost_at_p95": null,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "random",
+      "seed": 3,
+      "budget_ceiling": 3.0,
+      "spent": 3.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy3",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 2.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy2",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 3.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy4",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        }
+      ],
+      "final_weights": [
+        0.5,
+        0.5
+      ],
+      "identification_cost_at_p95": null,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    },
+    {
+      "policy": "random",
+      "seed": 4,
+      "budget_ceiling": 3.0,
+      "spent": 3.0,
+      "trace": [
+        {
+          "spent": 0.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5
+        },
+        {
+          "spent": 1.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy3",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 2.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy5",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        },
+        {
+          "spent": 3.0,
+          "posterior_entropy_nats": 0.6931471805599453,
+          "test_metrics": {
+            "n": 4,
+            "accuracy": 0.5,
+            "nll": 0.6944612411958144,
+            "brier": 0.5000025867320478,
+            "ece": 0.0006565988181221893,
+            "confusion_matrix_order": [
+              -1,
+              0,
+              1
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "argmax_tie_rule": "Within absolute 1e-12 prefer unchanged, then decreased; independent of truth labels.",
+            "reliability_bins": [
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "n": 4,
+                "mean_confidence": 0.4993434011818778,
+                "accuracy": 0.5
+              }
+            ],
+            "mean_model_coverage": 1.0,
+            "coverage_note": "Unmapped/nonconverged models contribute uniform probabilities, not confident unchanged calls."
+          },
+          "true_mechanism_probability": 0.5,
+          "queried_id": "decoy0",
+          "observed_outcome": 0,
+          "selection_eig_nats": 0.0
+        }
+      ],
+      "final_weights": [
+        0.5,
+        0.5
+      ],
+      "identification_cost_at_p95": null,
+      "mechanism_metric_note": "True-mechanism probability is available only for synthetic known-topology controls; real replay entropy is a proxy, not proof of mechanism identification."
+    }
+  ],
+  "query_summary": {
+    "information_gain": {
+      "replays": 5,
+      "budget_ceiling": 3.0,
+      "mean_actual_spend": 1.0,
+      "mean_final_test_nll": 0.003488597718794704,
+      "p95_identification_success_rate": 1.0,
+      "mean_final_true_mechanism_probability": 0.9743589743589742
+    },
+    "random": {
+      "replays": 5,
+      "budget_ceiling": 3.0,
+      "mean_actual_spend": 3.0,
+      "mean_final_test_nll": 0.6944612411958144,
+      "p95_identification_success_rate": 0.0,
+      "mean_final_true_mechanism_probability": 0.5
+    }
+  },
+  "query_protocol": "Outcome-only queries; at most one per independent paper/intervention component; equal budget ceilings; information gain may stop with unused budget when all candidates are equivalent.",
+  "synthetic_truth_retained": true,
+  "limitations": [
+    "Synthetic control only; not biological evidence or performance on a real discovery task.",
+    "Holdout is enforced after extraction; source/LLM pretraining contamination cannot be ruled out.",
+    "A formal study needs a frozen raw corpus, extraction before outcome access, independent audits and repeated splits.",
+    "The observation noise channel and edge-omission prior are assumptions, not measured biological quantities.",
+    "Posterior entropy reduction in real data is not ground-truth mechanism identification.",
+    "Small calibration/test component counts make calibration and accuracy estimates unstable."
+  ]
+}

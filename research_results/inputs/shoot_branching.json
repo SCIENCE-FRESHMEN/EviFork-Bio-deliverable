@@ -1,0 +1,4972 @@
+{
+  "format_version": 1,
+  "metadata": {
+    "phenotype_node": "Shoot_Branching",
+    "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+    "source_type": "retrospective_upstream_artifact",
+    "limitations": [
+      "Curation may already reflect upstream model selection and LLM prior knowledge.",
+      "Context is coarse; original experimental conditions need manual reconciliation.",
+      "DOI syntax and upstream full-text flags are not independent evidence verification.",
+      "Default KD=.5 and OE=2 are simulation encodings, not measured doses."
+    ]
+  },
+  "claims": [
+    {
+      "id": "C00001_e33059ba45",
+      "source": "ABA",
+      "target": "HB21",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00002_e33059ba45",
+      "source": "ABA",
+      "target": "HB40",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00003_e33059ba45",
+      "source": "ABA",
+      "target": "HB53",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00004_46dc75fa2f",
+      "source": "ABA",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1093/aob/mcl173",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00004_1ab993da0c",
+      "source": "ABA",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.15.00065",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00005_29cd1f9501",
+      "source": "ABA2",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.1104/pp.113.221895",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00006_dfcd002848",
+      "source": "ABCB19",
+      "target": "Polar_Auxin_Transport",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.1002446",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00007_f541a7765e",
+      "source": "ABCB19",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1371/journal.pgen.1008023",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00008_c532550109",
+      "source": "AFB4",
+      "target": "Auxin",
+      "sign": 0,
+      "doi": "10.1371/journal.pgen.1007089",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00009_c532550109",
+      "source": "AFB4",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007089",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00010_02716d26dc",
+      "source": "AFB5",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.7554/elife.54740",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00013_dff2815834",
+      "source": "ARR1",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.17.01691",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00014_7be1af04b5",
+      "source": "ARR1",
+      "target": "TIE1",
+      "sign": 1,
+      "doi": "10.1126/sciadv.abn5057",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00015_7be1af04b5",
+      "source": "ARR2",
+      "target": "TIE1",
+      "sign": 1,
+      "doi": "10.1126/sciadv.abn5057",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00017_46dc75fa2f",
+      "source": "Auxin",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.1093/aob/mcl173",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00018_c1a50ffa8b",
+      "source": "Auxin",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1105/tpc.106.048934",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00018_e70d18bbae",
+      "source": "Auxin",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.4161/psb.2.6.4811",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00019_3b657e6471",
+      "source": "Auxin",
+      "target": "CAMEL",
+      "sign": 1,
+      "doi": "10.1126/science.aba3178",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00020_60faf8663f",
+      "source": "Auxin",
+      "target": "CCD7",
+      "sign": 1,
+      "doi": "10.1104/pp.108.134783",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00020_b2a19da9c6",
+      "source": "Auxin",
+      "target": "CCD7",
+      "sign": 1,
+      "doi": "10.1104/pp.109.137646",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00020_c532550109",
+      "source": "Auxin",
+      "target": "CCD7",
+      "sign": 1,
+      "doi": "10.1371/journal.pgen.1007089",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00021_60faf8663f",
+      "source": "Auxin",
+      "target": "CCD8",
+      "sign": 1,
+      "doi": "10.1104/pp.108.134783",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00021_b2a19da9c6",
+      "source": "Auxin",
+      "target": "CCD8",
+      "sign": 1,
+      "doi": "10.1104/pp.109.137646",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00021_c532550109",
+      "source": "Auxin",
+      "target": "CCD8",
+      "sign": 1,
+      "doi": "10.1371/journal.pgen.1007089",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00022_324932cc7a",
+      "source": "Auxin",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.1093/aob/mcr069",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00022_4a1e66dd49",
+      "source": "Auxin",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.1104/pp.15.00014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00022_dfcd002848",
+      "source": "Auxin",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.1371/journal.pbio.1002446",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00022_cd3401e63a",
+      "source": "Auxin",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00023_cd3401e63a",
+      "source": "Auxin",
+      "target": "D27",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00024_1f69670783",
+      "source": "Auxin",
+      "target": "DRM1",
+      "sign": 1,
+      "doi": "10.1104/pp.104.057984",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00026_324932cc7a",
+      "source": "Auxin",
+      "target": "IPT",
+      "sign": -1,
+      "doi": "10.1093/aob/mcr069",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00027_81f30db4dd",
+      "source": "Auxin",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1038/s41467-020-17252-y",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00027_385d741198",
+      "source": "Auxin",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1104/pp.114.242388",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00027_dfcd002848",
+      "source": "Auxin",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.1002446",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00028_324932cc7a",
+      "source": "Auxin",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1093/aob/mcr069",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00028_bb7ce51fad",
+      "source": "Auxin",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.104.058743",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00028_cd3401e63a",
+      "source": "Auxin",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00029_60faf8663f",
+      "source": "Auxin",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1104/pp.108.134783",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00029_b2a19da9c6",
+      "source": "Auxin",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1104/pp.109.137646",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00029_dfcd002848",
+      "source": "Auxin",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.1002446",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00030_7f8a21fc93",
+      "source": "Auxin_canalization",
+      "target": "Bud_PIN_polarization",
+      "sign": 1,
+      "doi": "10.1038/srep35955",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00031_3624cd3a34",
+      "source": "Auxin_canalization",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1016/j.cub.2006.01.058",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00032_2ad1f95575",
+      "source": "BES1",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1016/j.xplc.2019.100014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00032_dfa8bfedf0",
+      "source": "BES1",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1093/jxb/eraf027",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00034_2ad1f95575",
+      "source": "BES1",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1016/j.xplc.2019.100014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00035_e33059ba45",
+      "source": "BRC1",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00035_db1c60e1ff",
+      "source": "BRC1",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.1093/jxb/erw479",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00035_cd3401e63a",
+      "source": "BRC1",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00036_f8a7a6f038",
+      "source": "BRC1",
+      "target": "ABF3",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00037_f8a7a6f038",
+      "source": "BRC1",
+      "target": "ABI1",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00038_f8a7a6f038",
+      "source": "BRC1",
+      "target": "ABI5",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00039_f8a7a6f038",
+      "source": "BRC1",
+      "target": "AFP1",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00040_f8a7a6f038",
+      "source": "BRC1",
+      "target": "AFP3",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00041_2189a1207a",
+      "source": "BRC1",
+      "target": "Auxin_efflux",
+      "sign": -1,
+      "doi": "10.1371/journal.pbio.3003395",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00042_e70d18bbae",
+      "source": "BRC1",
+      "target": "BRC2",
+      "sign": -1,
+      "doi": "10.4161/psb.2.6.4811",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00043_eaa8eb097e",
+      "source": "BRC1",
+      "target": "BRM",
+      "sign": 1,
+      "doi": "10.1111/tpj.16873",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00044_1f69670783",
+      "source": "BRC1",
+      "target": "DRM1",
+      "sign": 1,
+      "doi": "10.1104/pp.104.057984",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00044_76c976eacb",
+      "source": "BRC1",
+      "target": "DRM1",
+      "sign": 1,
+      "doi": "10.1104/pp.109.148833",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00044_f8a7a6f038",
+      "source": "BRC1",
+      "target": "DRM1",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00045_78536746dd",
+      "source": "BRC1",
+      "target": "FT",
+      "sign": -1,
+      "doi": "10.1105/tpc.112.109090",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00046_6d8c09e6de",
+      "source": "BRC1",
+      "target": "GBF3",
+      "sign": 1,
+      "doi": "10.1111/nph.19420",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00047_2189a1207a",
+      "source": "BRC1",
+      "target": "GH3.5",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.3003395",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00048_e33059ba45",
+      "source": "BRC1",
+      "target": "HB21",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00049_e33059ba45",
+      "source": "BRC1",
+      "target": "HB40",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00050_e33059ba45",
+      "source": "BRC1",
+      "target": "HB53",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00051_2189a1207a",
+      "source": "BRC1",
+      "target": "MAX1",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.3003395",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00052_f8a7a6f038",
+      "source": "BRC1",
+      "target": "NAC019",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00053_f8a7a6f038",
+      "source": "BRC1",
+      "target": "NAC092",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00054_f8a7a6f038",
+      "source": "BRC1",
+      "target": "NAP",
+      "sign": 1,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00055_e33059ba45",
+      "source": "BRC1",
+      "target": "NCED3",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00055_cd3401e63a",
+      "source": "BRC1",
+      "target": "NCED3",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00056_f094aa9cb5",
+      "source": "BRC1",
+      "target": "PIN3",
+      "sign": -1,
+      "doi": "10.1073/pnas.1907968116",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00056_5a904fa547",
+      "source": "BRC1",
+      "target": "PIN3",
+      "sign": -1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00057_dfa8bfedf0",
+      "source": "BRC1",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1093/jxb/eraf027",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00057_f03bd0c89f",
+      "source": "BRC1",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.111.182725",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00057_c1a50ffa8b",
+      "source": "BRC1",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1105/tpc.106.048934",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00058_c1a50ffa8b",
+      "source": "BRC2",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1105/tpc.106.048934",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00059_f8a7a6f038",
+      "source": "BRM",
+      "target": "BRC1",
+      "sign": 0,
+      "doi": "10.4161/psb.27994",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00060_3b657e6471",
+      "source": "CAMEL",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1126/science.aba3178",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00061_3b657e6471",
+      "source": "CANAR",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1126/science.aba3178",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00062_3b657e6471",
+      "source": "CANAR",
+      "target": "Vasculature_Regeneration",
+      "sign": 1,
+      "doi": "10.1126/science.aba3178",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00063_8bd63c01a8",
+      "source": "CCD7",
+      "target": "Carlactone",
+      "sign": 1,
+      "doi": "10.1073/pnas.1601729113",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00065_d801f8e11a",
+      "source": "CCD7",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/pcp/pcad088",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00065_b2a19da9c6",
+      "source": "CCD7",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1104/pp.109.137646",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00066_8bd63c01a8",
+      "source": "CCD8",
+      "target": "Carlactone",
+      "sign": 1,
+      "doi": "10.1073/pnas.1601729113",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00067_d801f8e11a",
+      "source": "CCD8",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/pcp/pcad088",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00067_b2a19da9c6",
+      "source": "CCD8",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1104/pp.109.137646",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00069_f3b96960f2",
+      "source": "CKX9",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.821563",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00070_5a904fa547",
+      "source": "CUC2",
+      "target": "LAS",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00075_99b36c788d",
+      "source": "Cytokinin",
+      "target": "Axillary_meristem_initiation",
+      "sign": 1,
+      "doi": "10.1016/j.pbi.2017.09.001",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00076_f03bd0c89f",
+      "source": "Cytokinin",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1104/pp.111.182725",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00076_d1f52e46d2",
+      "source": "Cytokinin",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1242/dev.145649",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00077_324932cc7a",
+      "source": "Cytokinin",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1093/aob/mcr069",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00078_dff2815834",
+      "source": "Cytokinin",
+      "target": "PIN3",
+      "sign": 1,
+      "doi": "10.1104/pp.17.01691",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00079_dff2815834",
+      "source": "Cytokinin",
+      "target": "PIN7",
+      "sign": 1,
+      "doi": "10.1104/pp.17.01691",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00081_053347887a",
+      "source": "Cytokinin",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1104/pp.109.135475",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00082_7be1af04b5",
+      "source": "Cytokinin",
+      "target": "TIE1",
+      "sign": 1,
+      "doi": "10.1126/sciadv.abn5057",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00083_5a904fa547",
+      "source": "Cytokinin",
+      "target": "WUS",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00084_56212cf0a7",
+      "source": "D14",
+      "target": "BES1",
+      "sign": -1,
+      "doi": "10.1016/j.devcel.2013.11.010",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00085_88ab807977",
+      "source": "D14",
+      "target": "D14",
+      "sign": -1,
+      "doi": "10.1038/s41467-018-08124-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00086_fe07367412",
+      "source": "D14",
+      "target": "MAX2",
+      "sign": 1,
+      "doi": "10.1038/nature19073",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00086_26ba676b48",
+      "source": "D14",
+      "target": "MAX2",
+      "sign": 1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00087_8a4df6bd58",
+      "source": "D14",
+      "target": "SMAX1",
+      "sign": -1,
+      "doi": "10.1016/j.xplc.2022.100303",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00088_26ba676b48",
+      "source": "D14",
+      "target": "SMXL6",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00089_77a4cdd00a",
+      "source": "D14",
+      "target": "SMXL678",
+      "sign": -1,
+      "doi": "10.1093/jxb/erae365",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00089_e36f4c5e1f",
+      "source": "D14",
+      "target": "SMXL678",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.887232",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00090_1c6e01c112",
+      "source": "D14",
+      "target": "SMXL7",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00562",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00091_26ba676b48",
+      "source": "D14",
+      "target": "SMXL8",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00092_e17995349c",
+      "source": "D14",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1093/jxb/erx434",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00092_88f0ffeec9",
+      "source": "D14",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1105/tpc.114.122903",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00092_4be9b8595f",
+      "source": "D14",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1242/dev.074567",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00093_8bd63c01a8",
+      "source": "D27",
+      "target": "Carlactone",
+      "sign": 1,
+      "doi": "10.1073/pnas.1601729113",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00094_d801f8e11a",
+      "source": "D27",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/pcp/pcad088",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00094_5a904fa547",
+      "source": "D27",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00096_a188783eda",
+      "source": "DELLA",
+      "target": "SPL9",
+      "sign": -1,
+      "doi": "10.1111/jipb.12818",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00097_1f69670783",
+      "source": "DRM1",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.104.057984",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00098_bb7ce51fad",
+      "source": "Decapitation",
+      "target": "Auxin",
+      "sign": -1,
+      "doi": "10.1104/pp.104.058743",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00098_053347887a",
+      "source": "Decapitation",
+      "target": "Auxin",
+      "sign": -1,
+      "doi": "10.1104/pp.109.135475",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00099_c1a50ffa8b",
+      "source": "Decapitation",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1105/tpc.106.048934",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00099_e70d18bbae",
+      "source": "Decapitation",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.4161/psb.2.6.4811",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00100_42eddd6ebb",
+      "source": "Decapitation",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiad034",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00100_053347887a",
+      "source": "Decapitation",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1104/pp.109.135475",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00100_cd3401e63a",
+      "source": "Decapitation",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00101_1f69670783",
+      "source": "Decapitation",
+      "target": "DRM1",
+      "sign": -1,
+      "doi": "10.1104/pp.104.057984",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00102_42eddd6ebb",
+      "source": "Decapitation",
+      "target": "GA1",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiad034",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00105_324932cc7a",
+      "source": "Decapitation",
+      "target": "IPT",
+      "sign": 1,
+      "doi": "10.1093/aob/mcr069",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00106_bb7ce51fad",
+      "source": "Decapitation",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1104/pp.104.058743",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00106_053347887a",
+      "source": "Decapitation",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1104/pp.109.135475",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00107_053347887a",
+      "source": "Decapitation",
+      "target": "Strigolactone",
+      "sign": -1,
+      "doi": "10.1104/pp.109.135475",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00108_a621c1c7af",
+      "source": "Decapitation",
+      "target": "Sucrose",
+      "sign": 1,
+      "doi": "10.1104/pp.18.00519",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00108_cd3401e63a",
+      "source": "Decapitation",
+      "target": "Sucrose",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00109_483033ec2d",
+      "source": "Decapitation",
+      "target": "T6P",
+      "sign": 1,
+      "doi": "10.1111/tpj.13705",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00110_b736ad5fe6",
+      "source": "FAR1",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00111_b736ad5fe6",
+      "source": "FHY3",
+      "target": "SMXL6",
+      "sign": 1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00112_b736ad5fe6",
+      "source": "FHY3",
+      "target": "SMXL7",
+      "sign": 1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00113_b736ad5fe6",
+      "source": "FHY3",
+      "target": "SPL15",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00114_b736ad5fe6",
+      "source": "FHY3",
+      "target": "SPL9",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00115_b736ad5fe6",
+      "source": "FHY3",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00116_b5bb1536b0",
+      "source": "FT",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1093/plphys/kiab586",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00117_b5bb1536b0",
+      "source": "FT",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab586",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00118_23bb323944",
+      "source": "GA",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.3389/fpls.2019.00076",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00119_a188783eda",
+      "source": "GA",
+      "target": "DELLA",
+      "sign": -1,
+      "doi": "10.1111/jipb.12818",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00127_e33059ba45",
+      "source": "HB21",
+      "target": "NCED3",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00128_6c7625c274",
+      "source": "HB21",
+      "target": "NCED5",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiae207",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00129_e33059ba45",
+      "source": "HB40",
+      "target": "NCED3",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00130_6c7625c274",
+      "source": "HB40",
+      "target": "NCED5",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiae207",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00131_e33059ba45",
+      "source": "HB53",
+      "target": "NCED3",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00132_6c7625c274",
+      "source": "HB53",
+      "target": "NCED5",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiae207",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00133_e19458d2b7",
+      "source": "HXK1",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1111/nph.17427",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00134_e19458d2b7",
+      "source": "HXK1",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1111/nph.17427",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00135_324932cc7a",
+      "source": "IPT",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1093/aob/mcr069",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00136_4be9b8595f",
+      "source": "KAI2",
+      "target": "MAX2",
+      "sign": 1,
+      "doi": "10.1242/dev.074567",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00137_29bf1e9210",
+      "source": "KAI2",
+      "target": "SMAX1",
+      "sign": -1,
+      "doi": "10.1073/pnas.2412793122",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00137_e36f4c5e1f",
+      "source": "KAI2",
+      "target": "SMAX1",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.887232",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00138_28e241d4a4",
+      "source": "LAS",
+      "target": "REV",
+      "sign": 1,
+      "doi": "10.1101/gad.260703",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00139_b67f1c89c7",
+      "source": "LAS",
+      "target": "ROX",
+      "sign": 1,
+      "doi": "10.1111/j.1365-313x.2012.04970.x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00140_28e241d4a4",
+      "source": "LAS",
+      "target": "STM",
+      "sign": 1,
+      "doi": "10.1101/gad.260703",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00141_28e241d4a4",
+      "source": "LAS",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1101/gad.260703",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00142_8bd63c01a8",
+      "source": "LBO",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1073/pnas.1601729113",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00142_d801f8e11a",
+      "source": "LBO",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/pcp/pcad088",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00144_edd90f93fb",
+      "source": "Low_R_FR",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1105/tpc.112.108480",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00145_b736ad5fe6",
+      "source": "Low_R_FR",
+      "target": "FHY3",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00146_e33059ba45",
+      "source": "Low_R_FR",
+      "target": "HB21",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00147_e33059ba45",
+      "source": "Low_R_FR",
+      "target": "NCED3",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00148_db1c60e1ff",
+      "source": "Low_R_FR",
+      "target": "PIF4",
+      "sign": 1,
+      "doi": "10.1093/jxb/erw479",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00149_edd90f93fb",
+      "source": "Low_R_FR",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1105/tpc.112.108480",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00150_8bd63c01a8",
+      "source": "MAX1",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1073/pnas.1601729113",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00150_6d2081aab8",
+      "source": "MAX1",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/jxb/erad412",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00150_e17995349c",
+      "source": "MAX1",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/jxb/erx434",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00150_d801f8e11a",
+      "source": "MAX1",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/pcp/pcad088",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00151_56212cf0a7",
+      "source": "MAX2",
+      "target": "BES1",
+      "sign": -1,
+      "doi": "10.1016/j.devcel.2013.11.010",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00151_2ad1f95575",
+      "source": "MAX2",
+      "target": "BES1",
+      "sign": -1,
+      "doi": "10.1016/j.xplc.2019.100014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00152_e70d18bbae",
+      "source": "MAX2",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.4161/psb.2.6.4811",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00153_378866ecf0",
+      "source": "MAX2",
+      "target": "D14",
+      "sign": 0,
+      "doi": "10.1038/cr.2015.122",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00154_77a4cdd00a",
+      "source": "MAX2",
+      "target": "D14",
+      "sign": -1,
+      "doi": "10.1093/jxb/erae365",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00155_3624cd3a34",
+      "source": "MAX2",
+      "target": "PIN1",
+      "sign": -1,
+      "doi": "10.1016/j.cub.2006.01.058",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00156_861f83309f",
+      "source": "MAX2",
+      "target": "SMXL2",
+      "sign": 1,
+      "doi": "10.3390/plants8090352",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00157_fd5938b4de",
+      "source": "MAX2",
+      "target": "SMXL5",
+      "sign": 0,
+      "doi": "10.1016/j.molp.2024.03.006",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00158_26ba676b48",
+      "source": "MAX2",
+      "target": "SMXL6",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00159_e36f4c5e1f",
+      "source": "MAX2",
+      "target": "SMXL678",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.887232",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00159_cd3401e63a",
+      "source": "MAX2",
+      "target": "SMXL678",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00160_1c6e01c112",
+      "source": "MAX2",
+      "target": "SMXL7",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00562",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00161_26ba676b48",
+      "source": "MAX2",
+      "target": "SMXL8",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00162_e17995349c",
+      "source": "MAX2",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1093/jxb/erx434",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00162_b2a19da9c6",
+      "source": "MAX2",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.109.137646",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00163_60faf8663f",
+      "source": "MAX2",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1104/pp.108.134783",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00164_e33059ba45",
+      "source": "NCED3",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00165_7a87266627",
+      "source": "NCED5",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.1111/j.1365-313x.2011.04887.x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00166_4968a0377f",
+      "source": "Nitrogen",
+      "target": "CCD7",
+      "sign": -1,
+      "doi": "10.1080/15592324.2015.1126031",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00167_4968a0377f",
+      "source": "Nitrogen",
+      "target": "CCD8",
+      "sign": -1,
+      "doi": "10.1080/15592324.2015.1126031",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00168_053347887a",
+      "source": "Nitrogen",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1104/pp.109.135475",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00169_053347887a",
+      "source": "Nitrogen",
+      "target": "IPT",
+      "sign": 1,
+      "doi": "10.1104/pp.109.135475",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00170_dff2815834",
+      "source": "Nitrogen",
+      "target": "PIN3",
+      "sign": 1,
+      "doi": "10.1104/pp.17.01691",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00171_4968a0377f",
+      "source": "Nitrogen",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1080/15592324.2015.1126031",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00171_385d741198",
+      "source": "Nitrogen",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1104/pp.114.242388",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00172_385d741198",
+      "source": "Nitrogen",
+      "target": "Strigolactone",
+      "sign": -1,
+      "doi": "10.1104/pp.114.242388",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00173_8a4df6bd58",
+      "source": "Osmotic_Stress",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1016/j.xplc.2022.100303",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00174_e17995349c",
+      "source": "PDR1",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/jxb/erx434",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00176_edd90f93fb",
+      "source": "PHYB",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1105/tpc.112.108480",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00177_76c976eacb",
+      "source": "PHYB",
+      "target": "BRC2",
+      "sign": -1,
+      "doi": "10.1104/pp.109.148833",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00178_58dada32e2",
+      "source": "PHYB",
+      "target": "GH3.5",
+      "sign": -1,
+      "doi": "10.1104/pp.113.234021",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00179_58dada32e2",
+      "source": "PHYB",
+      "target": "IAA3",
+      "sign": -1,
+      "doi": "10.1104/pp.113.234021",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00180_29cd1f9501",
+      "source": "PHYB",
+      "target": "NCED3",
+      "sign": -1,
+      "doi": "10.1104/pp.113.221895",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00181_58dada32e2",
+      "source": "PHYB",
+      "target": "SAUR9",
+      "sign": -1,
+      "doi": "10.1104/pp.113.234021",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00182_76c976eacb",
+      "source": "PHYB",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1104/pp.109.148833",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00182_58dada32e2",
+      "source": "PHYB",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1104/pp.113.234021",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00183_db1c60e1ff",
+      "source": "PIF5",
+      "target": "ABI5",
+      "sign": 1,
+      "doi": "10.1093/jxb/erw479",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00184_db1c60e1ff",
+      "source": "PIF5",
+      "target": "AREB3",
+      "sign": 1,
+      "doi": "10.1093/jxb/erw479",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00185_db1c60e1ff",
+      "source": "PIF5",
+      "target": "CYP707A3",
+      "sign": -1,
+      "doi": "10.1093/jxb/erw479",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00186_db1c60e1ff",
+      "source": "PIF5",
+      "target": "NCED3",
+      "sign": 1,
+      "doi": "10.1093/jxb/erw479",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00187_db1c60e1ff",
+      "source": "PIF5",
+      "target": "NCED4",
+      "sign": 1,
+      "doi": "10.1093/jxb/erw479",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00188_b41da804ac",
+      "source": "PIN1",
+      "target": "Auxin",
+      "sign": 1,
+      "doi": "10.1105/tpc.16.00286",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00189_e17995349c",
+      "source": "PIN1",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1093/jxb/erx434",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00189_4dd6ad4c99",
+      "source": "PIN1",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1242/bio.021402",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00190_dfcd002848",
+      "source": "PIN3",
+      "target": "Connective_Auxin_Transport",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.1002446",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00191_f541a7765e",
+      "source": "PIN3",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1371/journal.pgen.1008023",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00192_dfcd002848",
+      "source": "PIN4",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.1002446",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00193_dfcd002848",
+      "source": "PIN7",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1371/journal.pbio.1002446",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00194_cd3401e63a",
+      "source": "Phosphorus",
+      "target": "CCD7",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00195_cd3401e63a",
+      "source": "Phosphorus",
+      "target": "CCD8",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00196_5a904fa547",
+      "source": "Phosphorus",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00197_5a904fa547",
+      "source": "Phosphorus",
+      "target": "Strigolactone",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00199_b5bb1536b0",
+      "source": "Photoperiod",
+      "target": "FT",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab586",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00200_c735881b0f",
+      "source": "Photoperiod",
+      "target": "SPL15",
+      "sign": 1,
+      "doi": "10.1371/journal.pgen.1006263",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00201_b5bb1536b0",
+      "source": "Photoperiod",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab586",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00202_99b36c788d",
+      "source": "RAX1",
+      "target": "Axillary_meristem_initiation",
+      "sign": 1,
+      "doi": "10.1016/j.pbi.2017.09.001",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00203_22d8f4d930",
+      "source": "RAX1",
+      "target": "CUC2",
+      "sign": 1,
+      "doi": "10.1105/tpc.105.038588",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00204_b67f1c89c7",
+      "source": "RAX1",
+      "target": "ROX",
+      "sign": 1,
+      "doi": "10.1111/j.1365-313x.2012.04970.x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00205_22d8f4d930",
+      "source": "RAX1",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1105/tpc.105.038588",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00206_28e241d4a4",
+      "source": "REV",
+      "target": "STM",
+      "sign": 1,
+      "doi": "10.1101/gad.260703",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00207_b67f1c89c7",
+      "source": "ROX",
+      "target": "Axillary_meristem_initiation",
+      "sign": 1,
+      "doi": "10.1111/j.1365-313x.2012.04970.x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00208_b67f1c89c7",
+      "source": "ROX",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1111/j.1365-313x.2012.04970.x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00209_29bf1e9210",
+      "source": "SMAX1",
+      "target": "PIF4",
+      "sign": 0,
+      "doi": "10.1073/pnas.2412793122",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00210_fd5938b4de",
+      "source": "SMXL5",
+      "target": "D14",
+      "sign": 0,
+      "doi": "10.1016/j.molp.2024.03.006",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00211_fd5938b4de",
+      "source": "SMXL5",
+      "target": "SMXL678",
+      "sign": 1,
+      "doi": "10.1016/j.molp.2024.03.006",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00212_b736ad5fe6",
+      "source": "SMXL6",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00212_26ba676b48",
+      "source": "SMXL6",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00213_4dd6ad4c99",
+      "source": "SMXL6",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1242/bio.021402",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00214_b736ad5fe6",
+      "source": "SMXL6",
+      "target": "SPL15",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00215_b736ad5fe6",
+      "source": "SMXL6",
+      "target": "SPL9",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00216_26ba676b48",
+      "source": "SMXL6",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00217_77c9b60e22",
+      "source": "SMXL678",
+      "target": "ABI5",
+      "sign": -1,
+      "doi": "10.1093/pcp/pcaa066",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00218_29bf1e9210",
+      "source": "SMXL678",
+      "target": "BRC1",
+      "sign": 0,
+      "doi": "10.1073/pnas.2412793122",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00219_29bf1e9210",
+      "source": "SMXL678",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1073/pnas.2412793122",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00219_2189a1207a",
+      "source": "SMXL678",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1371/journal.pbio.3003395",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00219_e36f4c5e1f",
+      "source": "SMXL678",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.887232",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00220_77a4cdd00a",
+      "source": "SMXL678",
+      "target": "D14",
+      "sign": 1,
+      "doi": "10.1093/jxb/erae365",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00221_dfa8bfedf0",
+      "source": "SMXL678",
+      "target": "DELLA",
+      "sign": 0,
+      "doi": "10.1093/jxb/eraf027",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00222_77c9b60e22",
+      "source": "SMXL678",
+      "target": "MAX1",
+      "sign": -1,
+      "doi": "10.1093/pcp/pcaa066",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00223_29bf1e9210",
+      "source": "SMXL678",
+      "target": "PAP1",
+      "sign": -1,
+      "doi": "10.1073/pnas.2412793122",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00223_77c9b60e22",
+      "source": "SMXL678",
+      "target": "PAP1",
+      "sign": -1,
+      "doi": "10.1093/pcp/pcaa066",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00224_dfa8bfedf0",
+      "source": "SMXL678",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1093/jxb/eraf027",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00225_e17995349c",
+      "source": "SMXL678",
+      "target": "PIN1",
+      "sign": -1,
+      "doi": "10.1093/jxb/erx434",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00226_bb19e0ee68",
+      "source": "SMXL678",
+      "target": "SMXL678",
+      "sign": -1,
+      "doi": "10.1038/s41586-020-2382-x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00227_dfa8bfedf0",
+      "source": "SMXL678",
+      "target": "SMXL7",
+      "sign": 1,
+      "doi": "10.1093/jxb/eraf027",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00228_b41da804ac",
+      "source": "SMXL678",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1105/tpc.16.00286",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00229_dfa8bfedf0",
+      "source": "SMXL678",
+      "target": "SnRK2.3",
+      "sign": -1,
+      "doi": "10.1093/jxb/eraf027",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00230_e36f4c5e1f",
+      "source": "SMXL678",
+      "target": "TPL",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.887232",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00231_dfa8bfedf0",
+      "source": "SMXL678",
+      "target": "TPL",
+      "sign": 0,
+      "doi": "10.1093/jxb/eraf027",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00232_2ad1f95575",
+      "source": "SMXL7",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1016/j.xplc.2019.100014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00233_4dd6ad4c99",
+      "source": "SMXL7",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1242/bio.021402",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00234_b736ad5fe6",
+      "source": "SMXL7",
+      "target": "SPL15",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00235_b736ad5fe6",
+      "source": "SMXL7",
+      "target": "SPL9",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00236_26ba676b48",
+      "source": "SMXL7",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00237_26ba676b48",
+      "source": "SMXL8",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00238_1c6e01c112",
+      "source": "SMXL8",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1105/tpc.15.00562",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00239_b736ad5fe6",
+      "source": "SMXL8",
+      "target": "SPL15",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00240_b736ad5fe6",
+      "source": "SMXL8",
+      "target": "SPL9",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00241_26ba676b48",
+      "source": "SMXL8",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1105/tpc.15.00605",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00242_b736ad5fe6",
+      "source": "SPL15",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00243_b736ad5fe6",
+      "source": "SPL9",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00245_b736ad5fe6",
+      "source": "SPL9",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-15893-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00246_c0b1b94938",
+      "source": "SPS",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.1101/gad.887301",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00247_c0b1b94938",
+      "source": "SPS",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1101/gad.887301",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00248_5a904fa547",
+      "source": "STM",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00251_eaa8eb097e",
+      "source": "SYD",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1111/tpj.16873",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00252_483033ec2d",
+      "source": "SnRK1",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1111/tpj.13705",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00253_d801f8e11a",
+      "source": "Strigolactone",
+      "target": "ABA",
+      "sign": 1,
+      "doi": "10.1093/pcp/pcad088",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00254_5a904fa547",
+      "source": "Strigolactone",
+      "target": "Auxin",
+      "sign": -1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00254_4a1e66dd49",
+      "source": "Strigolactone",
+      "target": "Auxin",
+      "sign": -1,
+      "doi": "10.1104/pp.15.00014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00254_c532550109",
+      "source": "Strigolactone",
+      "target": "Auxin",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007089",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00255_2ad1f95575",
+      "source": "Strigolactone",
+      "target": "BES1",
+      "sign": -1,
+      "doi": "10.1016/j.xplc.2019.100014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00256_2ad1f95575",
+      "source": "Strigolactone",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1016/j.xplc.2019.100014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00256_bb19e0ee68",
+      "source": "Strigolactone",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1038/s41586-020-2382-x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00256_f03bd0c89f",
+      "source": "Strigolactone",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.1104/pp.111.182725",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00256_cd3401e63a",
+      "source": "Strigolactone",
+      "target": "BRC1",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00257_42eddd6ebb",
+      "source": "Strigolactone",
+      "target": "CKX",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiad034",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00257_cd3401e63a",
+      "source": "Strigolactone",
+      "target": "CKX",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00258_f3b96960f2",
+      "source": "Strigolactone",
+      "target": "CKX9",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.821563",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00259_d801f8e11a",
+      "source": "Strigolactone",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.1093/pcp/pcad088",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00259_5a904fa547",
+      "source": "Strigolactone",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00259_cd3401e63a",
+      "source": "Strigolactone",
+      "target": "Cytokinin",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00260_fe07367412",
+      "source": "Strigolactone",
+      "target": "D14",
+      "sign": 1,
+      "doi": "10.1038/nature19073",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00260_88ab807977",
+      "source": "Strigolactone",
+      "target": "D14",
+      "sign": 1,
+      "doi": "10.1038/s41467-018-08124-7",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00261_378866ecf0",
+      "source": "Strigolactone",
+      "target": "D14",
+      "sign": 0,
+      "doi": "10.1038/cr.2015.122",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00262_77a4cdd00a",
+      "source": "Strigolactone",
+      "target": "D14",
+      "sign": -1,
+      "doi": "10.1093/jxb/erae365",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00262_88f0ffeec9",
+      "source": "Strigolactone",
+      "target": "D14",
+      "sign": -1,
+      "doi": "10.1105/tpc.114.122903",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00263_d0b549151d",
+      "source": "Strigolactone",
+      "target": "DELLA",
+      "sign": 1,
+      "doi": "10.1038/ncomms3613",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00264_42eddd6ebb",
+      "source": "Strigolactone",
+      "target": "IPT",
+      "sign": -1,
+      "doi": "10.1093/plphys/kiad034",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00265_42eddd6ebb",
+      "source": "Strigolactone",
+      "target": "LOG",
+      "sign": -1,
+      "doi": "10.1093/plphys/kiad034",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00266_ea674c0cfe",
+      "source": "Strigolactone",
+      "target": "MAX2",
+      "sign": 1,
+      "doi": "10.1016/j.tplants.2019.12.009",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00267_3624cd3a34",
+      "source": "Strigolactone",
+      "target": "PIN1",
+      "sign": -1,
+      "doi": "10.1016/j.cub.2006.01.058",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00267_81f30db4dd",
+      "source": "Strigolactone",
+      "target": "PIN1",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-17252-y",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00267_e38761ddea",
+      "source": "Strigolactone",
+      "target": "PIN1",
+      "sign": -1,
+      "doi": "10.1371/journal.pbio.1001474",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00267_cd3401e63a",
+      "source": "Strigolactone",
+      "target": "PIN1",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00268_f541a7765e",
+      "source": "Strigolactone",
+      "target": "PIN7",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1008023",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00269_77a4cdd00a",
+      "source": "Strigolactone",
+      "target": "SMXL678",
+      "sign": -1,
+      "doi": "10.1093/jxb/erae365",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00270_eaa8eb097e",
+      "source": "Strigolactone",
+      "target": "SYD",
+      "sign": 1,
+      "doi": "10.1111/tpj.16873",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00271_7e36e5acae",
+      "source": "Strigolactone",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1038/nature07271",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00271_60faf8663f",
+      "source": "Strigolactone",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.108.134783",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00271_4a1e66dd49",
+      "source": "Strigolactone",
+      "target": "Shoot_Branching",
+      "sign": -1,
+      "doi": "10.1104/pp.15.00014",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00272_77c9b60e22",
+      "source": "Strigolactone",
+      "target": "Strigolactone",
+      "sign": -1,
+      "doi": "10.1093/pcp/pcaa066",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00273_c6521821cd",
+      "source": "Strigolactone",
+      "target": "T6P",
+      "sign": -1,
+      "doi": "10.1111/nph.20072",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00274_c532550109",
+      "source": "Strigolactone",
+      "target": "TAR2",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007089",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00275_bb19e0ee68",
+      "source": "Strigolactone",
+      "target": "TCP1",
+      "sign": 1,
+      "doi": "10.1038/s41586-020-2382-x",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00276_81f30db4dd",
+      "source": "Strigolactone",
+      "target": "Vasculature_Regeneration",
+      "sign": -1,
+      "doi": "10.1038/s41467-020-17252-y",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00278_e33059ba45",
+      "source": "Sucrose",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00278_cd3401e63a",
+      "source": "Sucrose",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.889045",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00279_66c6b931fb",
+      "source": "Sucrose",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab003",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00279_42eddd6ebb",
+      "source": "Sucrose",
+      "target": "Cytokinin",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiad034",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00280_59d84c0b8c",
+      "source": "Sucrose",
+      "target": "D14",
+      "sign": 1,
+      "doi": "10.1111/nph.17834",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00281_1f69670783",
+      "source": "Sucrose",
+      "target": "DRM1",
+      "sign": -1,
+      "doi": "10.1104/pp.104.057984",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00282_e33059ba45",
+      "source": "Sucrose",
+      "target": "HB21",
+      "sign": -1,
+      "doi": "10.1073/pnas.1613199114",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00283_1009cb1aaa",
+      "source": "Sucrose",
+      "target": "IPT3",
+      "sign": 1,
+      "doi": "10.1093/jxb/erv047",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00284_1009cb1aaa",
+      "source": "Sucrose",
+      "target": "IPT5",
+      "sign": 1,
+      "doi": "10.1093/jxb/erv047",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00285_1009cb1aaa",
+      "source": "Sucrose",
+      "target": "MAX2",
+      "sign": -1,
+      "doi": "10.1093/jxb/erv047",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00285_59d84c0b8c",
+      "source": "Sucrose",
+      "target": "MAX2",
+      "sign": -1,
+      "doi": "10.1111/nph.17834",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00286_1009cb1aaa",
+      "source": "Sucrose",
+      "target": "PIN1",
+      "sign": 1,
+      "doi": "10.1093/jxb/erv047",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00287_a621c1c7af",
+      "source": "Sucrose",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1104/pp.18.00519",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00287_59d84c0b8c",
+      "source": "Sucrose",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1111/nph.17834",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00288_71e35040ee",
+      "source": "Sucrose",
+      "target": "Strigolactone",
+      "sign": -1,
+      "doi": "10.1111/nph.16201",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00289_3542750db3",
+      "source": "Sucrose",
+      "target": "T6P",
+      "sign": 1,
+      "doi": "10.1104/pp.16.00417",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00290_1009cb1aaa",
+      "source": "Sucrose",
+      "target": "TAR1",
+      "sign": 1,
+      "doi": "10.1093/jxb/erv047",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00291_fae1b87f5a",
+      "source": "Sucrose",
+      "target": "TOR",
+      "sign": 1,
+      "doi": "10.3389/fpls.2022.830840",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00292_1009cb1aaa",
+      "source": "Sucrose",
+      "target": "YUC1",
+      "sign": 1,
+      "doi": "10.1093/jxb/erv047",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00293_483033ec2d",
+      "source": "T6P",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1111/tpj.13705",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00294_19191ae39c",
+      "source": "T6P",
+      "target": "FT",
+      "sign": 1,
+      "doi": "10.1111/nph.17006",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00295_19191ae39c",
+      "source": "T6P",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1111/nph.17006",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00296_3542750db3",
+      "source": "T6P",
+      "target": "SnRK1",
+      "sign": -1,
+      "doi": "10.1104/pp.16.00417",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00296_483033ec2d",
+      "source": "T6P",
+      "target": "SnRK1",
+      "sign": -1,
+      "doi": "10.1111/tpj.13705",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    },
+    {
+      "id": "C00297_02a80df309",
+      "source": "TCP14",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1111/nph.19950",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00298_02a80df309",
+      "source": "TCP15",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1111/nph.19950",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00299_a3f8bd7bb3",
+      "source": "TEAR1",
+      "target": "TIE1",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00300_a3f8bd7bb3",
+      "source": "TIE1",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00301_a3f8bd7bb3",
+      "source": "TIE1",
+      "target": "BRC2",
+      "sign": 0,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00302_a3f8bd7bb3",
+      "source": "TIE1",
+      "target": "HB21",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00303_a3f8bd7bb3",
+      "source": "TIE1",
+      "target": "HB40",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00304_a3f8bd7bb3",
+      "source": "TIE1",
+      "target": "HB53",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00305_a3f8bd7bb3",
+      "source": "TIE1",
+      "target": "Shoot_Branching",
+      "sign": 1,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00306_a3f8bd7bb3",
+      "source": "TIE1",
+      "target": "TCP14",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1007296",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00307_fae1b87f5a",
+      "source": "TOR",
+      "target": "BRC1",
+      "sign": -1,
+      "doi": "10.3389/fpls.2022.830840",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00308_5a904fa547",
+      "source": "WUS",
+      "target": "STM",
+      "sign": 1,
+      "doi": "10.1093/plphys/kiab071",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00309_c735881b0f",
+      "source": "miR156",
+      "target": "SPL13",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1006263",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00310_6947c2337b",
+      "source": "miR156",
+      "target": "SPL15",
+      "sign": -1,
+      "doi": "10.1007/s11103-008-9310-z",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00310_c735881b0f",
+      "source": "miR156",
+      "target": "SPL15",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1006263",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00311_6947c2337b",
+      "source": "miR156",
+      "target": "SPL9",
+      "sign": -1,
+      "doi": "10.1007/s11103-008-9310-z",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00311_c735881b0f",
+      "source": "miR156",
+      "target": "SPL9",
+      "sign": -1,
+      "doi": "10.1371/journal.pgen.1006263",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "fulltext"
+    },
+    {
+      "id": "C00312_99b36c788d",
+      "source": "miR164",
+      "target": "CUC2",
+      "sign": -1,
+      "doi": "10.1016/j.pbi.2017.09.001",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "quality": "unknown"
+    }
+  ],
+  "perturbations": [
+    {
+      "id": "T001",
+      "genes": {
+        "BRC1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1105/tpc.106.048934"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T002",
+      "genes": {
+        "BRC2": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1105/tpc.106.048934"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T004",
+      "genes": {
+        "MAX1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1105/tpc.106.048934"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T005",
+      "genes": {
+        "MAX2": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1105/tpc.106.048934"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T008",
+      "genes": {
+        "D14": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1105/tpc.114.122903"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T009",
+      "genes": {
+        "D27": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1242/bio.021402"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T010",
+      "genes": {
+        "LBO": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1073/pnas.1601729113"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T011",
+      "genes": {
+        "SMXL6": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1105/tpc.15.00605"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T012",
+      "genes": {
+        "SMXL7": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1105/tpc.15.00605"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T013",
+      "genes": {
+        "SMXL8": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1105/tpc.15.00605"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T015",
+      "genes": {
+        "PHYB": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1104/pp.109.148833"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T017",
+      "genes": {
+        "NCED3": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1104/pp.113.221895"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T018",
+      "genes": {
+        "ABA2": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1104/pp.113.221895"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T019",
+      "genes": {
+        "LAS": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1101/gad.260703"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T020",
+      "genes": {
+        "RAX1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1105/tpc.105.038588"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T021",
+      "genes": {
+        "TIE1": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1371/journal.pgen.1007296"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T022",
+      "genes": {
+        "FHY3": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1038/s41467-020-15893-7"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T023",
+      "genes": {
+        "FHY3": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1038/s41467-020-15893-7"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T024",
+      "genes": {
+        "FAR1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1038/s41467-020-15893-7"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T027",
+      "genes": {
+        "BRC1": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1105/tpc.106.048934"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T031",
+      "genes": {
+        "ARR1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1104/pp.17.01691"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T034",
+      "genes": {
+        "BES1": 0.5
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1016/j.xplc.2019.100014"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T036",
+      "genes": {
+        "FT": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1093/plphys/kiab586"
+      ],
+      "reported_condition": "LD",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T037",
+      "genes": {
+        "FT": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1093/plphys/kiab586"
+      ],
+      "reported_condition": "LD",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T038",
+      "genes": {
+        "KAI2": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1242/bio.021402"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T039",
+      "genes": {
+        "SMAX1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1105/tpc.15.00562"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T048",
+      "genes": {
+        "ABCB19": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1371/journal.pgen.1008023"
+      ],
+      "reported_condition": "SD",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T060",
+      "genes": {
+        "CKX": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1093/aob/mcr069"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T084",
+      "genes": {
+        "HB21": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1073/pnas.1613199114"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T101",
+      "genes": {
+        "CUC2": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1093/plphys/kiab071"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T114",
+      "genes": {
+        "BRC2": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1105/tpc.106.048934"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T117",
+      "genes": {
+        "CCD8": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1104/pp.108.134783"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T120",
+      "genes": {
+        "BRC1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1104/pp.108.134783"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T121",
+      "genes": {
+        "Auxin": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1104/pp.15.00014"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T125",
+      "genes": {
+        "MAX1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1038/s41467-020-17252-y"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T126",
+      "genes": {
+        "MAX2": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1038/s41467-020-17252-y"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T127",
+      "genes": {
+        "D14": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "unchanged",
+      "dois": [
+        "10.1038/s41467-020-17252-y"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T128",
+      "genes": {
+        "SMXL678": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1105/tpc.16.00286"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T129",
+      "genes": {
+        "SMXL7": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1105/tpc.16.00286"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T133",
+      "genes": {
+        "Cytokinin": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1104/pp.111.182725"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T135",
+      "genes": {
+        "D14": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1038/nature12870"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T141",
+      "genes": {
+        "D14": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "decreased",
+      "dois": [
+        "10.1016/j.xplc.2022.100303"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T143",
+      "genes": {
+        "MAX1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.3390/plants8090352"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T144",
+      "genes": {
+        "MAX2": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.3390/plants8090352"
+      ],
+      "reported_condition": null,
+      "reported_species": null
+    },
+    {
+      "id": "T159",
+      "genes": {
+        "miR156": 2
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1371/journal.pgen.1006263"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T160",
+      "genes": {
+        "DRM1": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1104/pp.104.057984"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    },
+    {
+      "id": "T161",
+      "genes": {
+        "NCED5": 0
+      },
+      "supply": {},
+      "baseline_genes": {},
+      "baseline_supply": {},
+      "phenotype": "Shoot_Branching",
+      "context": "{\"resolution\":\"upstream_coarse\",\"species\":\"Arabidopsis thaliana\"}",
+      "outcome": "increased",
+      "dois": [
+        "10.1093/plphys/kiae207"
+      ],
+      "reported_condition": "both",
+      "reported_species": "Arabidopsis thaliana"
+    }
+  ],
+  "audits": [],
+  "import_audit": {
+    "input_edges": 313,
+    "input_tests": 201,
+    "input_files_sha256": {
+      "data/curated_edges.json": "30527a3f3cd5c97034d8eb33aa3e2686b6617c816a8a15a2ab741b900156377e",
+      "data/perturbation_dataset.json": "e872976ac25b600382dc69e32278902cd3582c75142deb6ad2dc028b22405962"
+    },
+    "retained_claims": 358,
+    "retained_tests": 47,
+    "quarantine": [
+      {
+        "kind": "edge",
+        "index": 0,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 11,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 12,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 16,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 25,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 33,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 64,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 68,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 71,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 72,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 73,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 74,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 80,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 95,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 103,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 104,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 120,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 121,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 122,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 123,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 124,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 125,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 126,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 143,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 175,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 198,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 244,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 249,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 250,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "edge",
+        "index": 277,
+        "reason": "no syntactically valid source DOI"
+      },
+      {
+        "kind": "perturbation",
+        "index": 2,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 5,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 6,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 13,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 15,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 24,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 25,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 27,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 28,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 29,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 31,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 32,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 34,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 39,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 40,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 41,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 42,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 43,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 44,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 45,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 46,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 48,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 49,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 50,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 51,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 52,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 53,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 54,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 55,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 56,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 57,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 58,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 60,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 61,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 62,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 63,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 64,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 65,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 66,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 67,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 68,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 69,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 70,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 71,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 72,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 73,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 74,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 75,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 76,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 77,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 78,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 79,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 80,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 81,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 82,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 84,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 85,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 86,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 87,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 88,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 89,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 90,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 91,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 92,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 93,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 94,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 95,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 96,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 97,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 98,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 99,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 101,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 102,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 103,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 104,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 105,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 106,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 107,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 108,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 109,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 110,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 111,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 112,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 114,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 115,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 117,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 118,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 121,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 122,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 123,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 129,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 130,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 131,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 133,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 135,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 136,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 137,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 138,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 139,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 141,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 144,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 145,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 146,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 147,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 148,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 149,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 150,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 151,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 152,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 153,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 154,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 155,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 156,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 157,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 161,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 162,
+        "reason": "Complex intervention requires explicit numeric modifiers; no inferred encoding"
+      },
+      {
+        "kind": "perturbation",
+        "index": 163,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 164,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 165,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 166,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 167,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 168,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 169,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 170,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 171,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 172,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 173,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 174,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 175,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 176,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 177,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 178,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 179,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 180,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 181,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 182,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 183,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 184,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 185,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 186,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 187,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 188,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 189,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 190,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 191,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 192,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 193,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 194,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 195,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 196,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 197,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 198,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 199,
+        "reason": "No unique raw-curation node mapping"
+      },
+      {
+        "kind": "perturbation",
+        "index": 200,
+        "reason": "No unique raw-curation node mapping"
+      }
+    ]
+  }
+}
